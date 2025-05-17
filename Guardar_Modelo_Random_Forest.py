@@ -15,6 +15,7 @@ def cargar_csv(nombre_archivo):
                 datos.append([float(x.strip()) for x in fila[:-1]] + [fila[-1]])
     return datos
 
+
 # Codifica la última columna (clase) a enteros
 def codificar_clases(datos):
     valores = [fila[-1] for fila in datos]
