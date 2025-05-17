@@ -1,280 +1,195 @@
-# Importar bibliotecas necesarias para operaciones matematicas, serialización y manejo de archivos
-from random import seed, randrange
-from csv import reader, writer
+from random import seed, randrange, shuffle
+from csv import reader
 from math import sqrt
+import os
 import pickle
 
-# Función para cargar un archivo CSV
-# Carga un archivo CSV y lo devuelve como lista de listas
+# Carga del CSV
+# Esta función carga un archivo CSV y devuelve una lista de listas con los datos.
 def cargar_csv(nombre_archivo):
-    conjunto_datos = list()
-    with open(nombre_archivo, 'r') as archivo:
-        lector_csv = reader(archivo)
-        for fila in lector_csv:
-            if not fila:  #Se satlan filas vacías
-                continue
-            conjunto_datos.append(fila)
-    return conjunto_datos
+    datos = []
+    with open(nombre_archivo, 'r') as f:
+        lector = reader(f)
+        for fila in lector:
+            if fila:
+                datos.append([float(x.strip()) for x in fila[:-1]] + [fila[-1]])
+    return datos
 
-# Conversión de datos a tipos numéricos
-#Función que convierte una columna de strings a valores flotantes
-def convertir_columna_a_float(conjunto_datos, indice_columna):
-    for fila in conjunto_datos:
-        fila[indice_columna] = float(fila[indice_columna].strip())
+# Codifica la última columna (clase) a enteros
+def codificar_clases(datos):
+    valores = [fila[-1] for fila in datos]
+    unicos = list(set(valores))
+    mapa = {v:i for i,v in enumerate(unicos)}
+    for fila in datos:
+        fila[-1] = mapa[fila[-1]]
+    return mapa
 
-# Función que codifica una columna categórica a valores enteros únicos (para la clasificacion y saber a qué clase pertenece cada fila)
-def convertir_columna_a_entero(conjunto_datos, indice_columna):
-    valores_clase = [fila[indice_columna] for fila in conjunto_datos]
-    valores_unicos = set(valores_clase)
-    diccionario_codificacion = dict()
-    for indice, valor in enumerate(valores_unicos):
-        diccionario_codificacion[valor] = indice
-    for fila in conjunto_datos:
-        fila[indice_columna] = diccionario_codificacion[fila[indice_columna]]
-    return diccionario_codificacion  #Diccionario de codificación para referencia
+# Calcula la exactitud de las predicciones
+# Esta función compara las predicciones con los valores reales y devuelve la exactitud en porcentaje.
+def exactitud(reales, predichos):
+    aciertos = sum(1 for r,p in zip(reales, predichos) if r==p)
+    return aciertos / len(reales) * 100.0
 
-# Función que divide el dataset en 'k' particiones para realixar validación cruzada.
-def dividir_validacion_cruzada(conjunto_datos, num_particiones):
-    particiones = list()
-    copia_conjunto = list(conjunto_datos)
-    tamano_particion = int(len(copia_conjunto) / num_particiones)
-    for _ in range(num_particiones):
-        particion = list()
-        while len(particion) < tamano_particion:
-            indice_aleatorio = randrange(len(copia_conjunto))
-            particion.append(copia_conjunto.pop(indice_aleatorio))
-        particiones.append(particion)
-    return particiones
+# Funciones del random forest
+# Esta función divide los datos en dos grupos según un índice y un valor.
+# Por ejemplo, si el índice es 0 y el valor es 5, se dividirán los datos en dos grupos:
+# uno con los registros donde la primera columna es menor que 5 y otro donde es mayor o igual a 5.  
+def dividir_por_caracteristica(ind, val, datos):
+    izq = [r for r in datos if r[ind] < val]
+    der = [r for r in datos if r[ind] >= val]
+    return izq, der
 
-# Métricas de evaluación
-# Función que calcula la exactitud de las predicciones comparando los valores reales y los predichos
-def calcular_exactitud(reales, predichos):
-    correctos = sum(1 for i in range(len(reales)) if reales[i] == predichos[i])
-    return (correctos / float(len(reales))) * 100.0
+# Calcula el índice de Gini para un conjunto de grupos
+# Esta función mide la impureza de los grupos generados por una división.
+# Un índice de Gini más bajo indica una mejor división.
+def gini(grupos, clases):
+    total = sum(len(g) for g in grupos)
+    imp = 0.0
+    for g in grupos:
+        tam = len(g)
+        if tam == 0: continue
+        s = 0.0
+        for c in clases:
+            p = sum(1 for r in g if r[-1]==c) / tam
+            s += p*p
+        imp += (1 - s) * (tam/total)
+    return imp
 
-#Evaluación del algoritmo
-# Función que evalúa un algoritmo usando validación cruzada y devuelve las puntuaciones
-def evaluar_algoritmo(conjunto_datos, algoritmo, num_particiones, *args):
-    particiones = dividir_validacion_cruzada(conjunto_datos, num_particiones)
-    puntuaciones = list()
-    for particion in particiones:
-        conjunto_entrenamiento = list(particiones)
-        conjunto_entrenamiento.remove(particion)
-        # Aplanamos la lista de listas a una sola lista
-        conjunto_entrenamiento = sum(conjunto_entrenamiento, [])
-        conjunto_prueba = list()
-        # Preparamos el conjunto de prueba ocultando las etiquetas reales
-        for fila in particion:
-            copia_fila = list(fila)
-            conjunto_prueba.append(copia_fila)
-            copia_fila[-1] = None  #Ocultamos la etiqueta real
-        predichos = algoritmo(conjunto_entrenamiento, conjunto_prueba, *args)
-        reales = [fila[-1] for fila in particion]
-        exactitud = calcular_exactitud(reales, predichos)
-        puntuaciones.append(exactitud)
-    return puntuaciones
+# Esta función encuentra la mejor división de los datos según el índice de Gini.
+# Selecciona aleatoriamente un número de características y encuentra la mejor división  
+# entre ellas. Devuelve un diccionario con la mejor división encontrada.
+def mejor_division(datos, num_feat):
+    clases = list(set(r[-1] for r in datos))
+    mejor = {'gini':1e9}
+    n_feats = []
+    while len(n_feats) < num_feat:
+        i = randrange(len(datos[0]) - 1)
+        if i not in n_feats: n_feats.append(i)
+    for ind in n_feats:
+        for r in datos:
+            grupos = dividir_por_caracteristica(ind, r[ind], datos)
+            ig = gini(grupos, clases)
+            if ig < mejor['gini']:
+                mejor = {'indice':ind, 'valor':r[ind], 'gini':ig, 'grupos':grupos}
+    return mejor
 
-# Funciones para construcción del árbol
-# Funcion que divide el dataset en dos grupos basados en un valor de característica
-# Esta función se utiliza para dividir el dataset en dos grupos, uno a la izquierda y otro a la derecha, según un valor de característica
-def dividir_por_caracteristica(indice, valor, conjunto_datos):
-    izquierda, derecha = list(), list()
-    for fila in conjunto_datos:
-        if fila[indice] < valor:
-            izquierda.append(fila)
-        else:
-            derecha.append(fila)
-    return izquierda, derecha
+# Esta función determina la clase terminal de un grupo de datos.
+# Toma el grupo de datos y devuelve la clase más frecuente.
+def terminal(grupo):
+    labels = [r[-1] for r in grupo]
+    return max(set(labels), key=labels.count)
 
-# Función que calcula el índice de Gini para evaluar la calidad de una división
-# El índice de Gini mide la impureza de un conjunto de datos, donde 0 es puro y 1 es impuro
-def calcular_indice_gini(grupos, clases):
-    total_muestras = sum(len(grupo) for grupo in grupos)
-    gini = 0.0
-    for grupo in grupos:
-        tamano_grupo = len(grupo)
-        if tamano_grupo == 0:
-            continue
-        suma_probabilidad = 0.0
-        for clase in clases:
-            proporcion = [fila[-1] for fila in grupo].count(clase) / tamano_grupo
-            suma_probabilidad += proporcion ** 2
-        gini += (1.0 - suma_probabilidad) * (tamano_grupo / total_muestras)
-    return gini
-
-# Función que encuentra la mejor división del conjunto de datos
-# Esta función evalúa todas las posibles divisiones y selecciona la que minimiza el índice de Gini
-# Se basa en la idea de que una buena división separa las clases de manera efectiva
-def encontrar_mejor_division(conjunto_datos, num_caracteristicas):
-    clases_unicas = list(set(fila[-1] for fila in conjunto_datos))
-    mejor_indice, mejor_valor, mejor_gini, mejor_grupos = 999, 999, 999, None
-    caracteristicas = list()
-    
-    # Seleccionamos las características aleatorias sin repetición
-    while len(caracteristicas) < num_caracteristicas:
-        indice_aleatorio = randrange(len(conjunto_datos[0])-1)
-        if indice_aleatorio not in caracteristicas:
-            caracteristicas.append(indice_aleatorio)
-    
-    # Evaluamos todas las posibles divisiones para cada característica seleccionada
-    for indice in caracteristicas:
-        for fila in conjunto_datos:
-            grupos = dividir_por_caracteristica(indice, fila[indice], conjunto_datos)
-            gini_actual = calcular_indice_gini(grupos, clases_unicas)
-            if gini_actual < mejor_gini:
-                mejor_indice, mejor_valor, mejor_gini, mejor_grupos = indice, fila[indice], gini_actual, grupos
-    return {'indice': mejor_indice, 'valor': mejor_valor, 'grupos': mejor_grupos}
-
-# Función que crea un nodo terminal
-# Esta función se utiliza para crear un nodo terminal en el árbol de decisión, que representa una clase final
-def crear_nodo_terminal(grupo):
-    resultados = [fila[-1] for fila in grupo]
-    return max(set(resultados), key=resultados.count)
-
-# Funcion que divide recursivamente los nodos del árbol
-def dividir_nodo(nodo, profundidad_max, tamano_min, num_caracteristicas, profundidad_actual):
-    izquierda, derecha = nodo['grupos']
-    del(nodo['grupos'])  # Eliminamos los grupos ya procesados
-    
-    # Caso: no hay división posible
-    if not izquierda or not derecha:
-        nodo['izquierda'] = nodo['derecha'] = crear_nodo_terminal(izquierda + derecha)
+# Esta función divide un nodo en dos subnodos.
+# Si el nodo es terminal o ha alcanzado la profundidad máxima, se convierte en un nodo terminal.
+def dividir_nodo(nodo, prof_max, tam_min, num_feat, prof):
+    izq, der = nodo['grupos']
+    del nodo['grupos']
+    if not izq or not der:
+        nodo['izq'] = nodo['der'] = terminal(izq+der)
         return
-    
-    # Verificamos la profundidad máxima
-    if profundidad_actual >= profundidad_max:
-        nodo['izquierda'] = crear_nodo_terminal(izquierda)
-        nodo['derecha'] = crear_nodo_terminal(derecha)
+    if prof >= prof_max:
+        nodo['izq'], nodo['der'] = terminal(izq), terminal(der)
         return
-    
-    # Procesamos le hijo izquierdo
-    if len(izquierda) <= tamano_min:
-        nodo['izquierda'] = crear_nodo_terminal(izquierda)
+    if len(izq) <= tam_min:
+        nodo['izq'] = terminal(izq)
     else:
-        nodo['izquierda'] = encontrar_mejor_division(izquierda, num_caracteristicas)
-        dividir_nodo(nodo['izquierda'], profundidad_max, tamano_min, num_caracteristicas, profundidad_actual+1)
-    
-    # Procesamos el hijo derecho
-    if len(derecha) <= tamano_min:
-        nodo['derecha'] = crear_nodo_terminal(derecha)
+        nodo['izq'] = mejor_division(izq, num_feat)
+        dividir_nodo(nodo['izq'], prof_max, tam_min, num_feat, prof+1)
+    if len(der) <= tam_min:
+        nodo['der'] = terminal(der)
     else:
-        nodo['derecha'] = encontrar_mejor_division(derecha, num_caracteristicas)
-        dividir_nodo(nodo['derecha'], profundidad_max, tamano_min, num_caracteristicas, profundidad_actual+1)
+        nodo['der'] = mejor_division(der, num_feat)
+        dividir_nodo(nodo['der'], prof_max, tam_min, num_feat, prof+1)
 
-# Función que construye el árbol de decisión
-def construir_arbol(conjunto_entrenamiento, profundidad_max, tamano_min, num_caracteristicas):
-    raiz = encontrar_mejor_division(conjunto_entrenamiento, num_caracteristicas)
-    dividir_nodo(raiz, profundidad_max, tamano_min, num_caracteristicas, 1)
+# Esta función construye el árbol de decisión.
+# Toma los datos, la profundidad máxima, el tamaño mínimo de los grupos y el número de características.
+def construir_arbol(datos, prof_max, tam_min, num_feat):
+    raiz = mejor_division(datos, num_feat)
+    dividir_nodo(raiz, prof_max, tam_min, num_feat, 1)
     return raiz
 
-# Funciones de predicción  
-# Función que realiza una predicción usando un árbol de decisión
-def predecir_con_arbol(nodo, fila):
+# Esta función predice la clase de una fila de datos utilizando el árbol de decisión.
+# Toma el nodo raíz y la fila de datos y recorre el árbol hasta llegar a un nodo terminal.
+def predecir_arbol(nodo, fila):
     if fila[nodo['indice']] < nodo['valor']:
-        if isinstance(nodo['izquierda'], dict):
-            return predecir_con_arbol(nodo['izquierda'], fila)
-        else:
-            return nodo['izquierda']
+        return predecir_arbol(nodo['izq'], fila) if isinstance(nodo['izq'], dict) else nodo['izq']
     else:
-        if isinstance(nodo['derecha'], dict):
-            return predecir_con_arbol(nodo['derecha'], fila)
-        else:
-            return nodo['derecha']
-        
-# Función que crea una muestra bootstrap (muestra aleatoria con reemplazo)
-def crear_muestra_bootstrap(conjunto_datos, proporcion_muestra):
-    muestra = list()
-    tamano_muestra = round(len(conjunto_datos) * proporcion_muestra)
-    while len(muestra) < tamano_muestra:
-        indice_aleatorio = randrange(len(conjunto_datos))
-        muestra.append(conjunto_datos[indice_aleatorio])
-    return muestra
+        return predecir_arbol(nodo['der'], fila) if isinstance(nodo['der'], dict) else nodo['der']
 
-# Función que realiza una predicción usando el bosque aleatorio
-def predecir_con_bosque(bosque, fila):
-    """Realiza una predicción promediando las predicciones de todos los árboles."""
-    predicciones = [predecir_con_arbol(arbol, fila) for arbol in bosque]
-    return max(set(predicciones), key=predicciones.count)
+# Esta función crea una muestra aleatoria de los datos.
+# Toma los datos y la proporción de la muestra y devuelve una lista de filas aleatorias.
+def bootstrap(datos, prop):
+    n = round(len(datos)*prop)
+    return [datos[randrange(len(datos))] for _ in range(n)]
 
-# Algoritmo principal: Random Forest (modificado para devolver el bosque)
-def random_forest(entrenamiento, prueba, profundidad_max, tamano_min, proporcion_muestra, num_arboles, num_caracteristicas):
-    """Construye un bosque aleatorio y realiza predicciones."""
-    bosque = list()
-    for _ in range(num_arboles):
-        muestra = crear_muestra_bootstrap(entrenamiento, proporcion_muestra)
-        # Imprimir el progreso de la construcción del árbol
-        print(f'Construyendo árbol {_+1}/{num_arboles}...')
-        arbol = construir_arbol(muestra, profundidad_max, tamano_min, num_caracteristicas)
+# Esta función construye el bosque aleatorio.
+# Toma los datos de entrenamiento y prueba, la profundidad máxima, el tamaño mínimo de los grupos,
+# la proporción de la muestra, el número de árboles y el número de características.
+def random_forest(train, test, prof_max, tam_min, prop_boot, n_trees, n_feats):
+    bosque = []
+    for i in range(n_trees):
+        muestra = bootstrap(train, prop_boot)
+        print(f"Construyendo árbol {i+1}/{n_trees}")
+        arbol = construir_arbol(muestra, prof_max, tam_min, n_feats)
         bosque.append(arbol)
-    
-    # Realizar predicciones si hay datos de prueba
-    if prueba:
-        predicciones = [predecir_con_bosque(bosque, fila) for fila in prueba]
-        return bosque, predicciones
-    return bosque, []
+    predicciones = []
+    for f in test:
+        votos = [predecir_arbol(a, f) for a in bosque]
+        pred = max(set(votos), key=votos.count)
+        predicciones.append(pred)
+    return bosque, predicciones
 
-#Configuración y ejecución
+
 if __name__ == "__main__":
-    # Configuración inicial
     seed(2)
-    nombre_archivo = 'Dataset_Final_SE.csv' 
-    num_particiones = 5
-    profundidad_max = 10
-    tamano_min = 1
-    proporcion_muestra = 1.0
-    num_arboles = 1 
-    
-    # Cargar y preparar datos
-    conjunto_datos = cargar_csv(nombre_archivo)
-    
-    # Convertir columnas numéricas
-    for indice_columna in range(len(conjunto_datos[0])-1):
-        convertir_columna_a_float(conjunto_datos, indice_columna)
-    
-    # Convertir columna de clase y guardar el diccionario
-    diccionario_clases = convertir_columna_a_entero(conjunto_datos, len(conjunto_datos[0])-1)
-    
-    # Evaluación con validación cruzada
-    print('Evaluando Random Forest con validación cruzada...')
-    puntuaciones, reales, predichos = evaluar_algoritmo(
-        conjunto_datos, 
-        lambda train, test, *args: random_forest(train, test, *args)[1],  # Wrapper para mantener compatibilidad
-        num_particiones,
-        profundidad_max,
-        tamano_min,
-        proporcion_muestra,
-        num_arboles,
-        int(sqrt(len(conjunto_datos[0])-1))
-    )
-    
-    # Mostrar resultados de evaluación
-    print(f'\nResultados para {num_arboles} árboles:')
-    print(f'Puntuaciones: {puntuaciones}')
-    print(f'Exactitud Promedio: {sum(puntuaciones)/float(len(puntuaciones)):.3f}%')
+    archivo = 'Dataset_Final_SE.csv'
+    datos = cargar_csv(archivo)
+    cod_map = codificar_clases(datos)
 
-    # Guardar resultados en CSV
-    inverso_clases = {v: k for k, v in diccionario_clases.items()}
-    with open('resultados.csv', 'w', newline='') as f:
-        csv_writer = writer(f)
-        csv_writer.writerow(['Real', 'Predicho'])
-        for r, p in zip(reales, predichos):
-            csv_writer.writerow([inverso_clases[r], inverso_clases[p]])
-    print('\nResultados guardados en resultados.csv')
+    # Parámetros de datos de entrenamiento y prueba:
+    porc_entrenamiento = 0.8  
+    porc_datos = 1.0 
+    modelo_path       = 'modelo_rf.pkl'
 
-    # Entrenar y guardar modelo final con todos los datos
-    bosque_final, _ = random_forest(
-        conjunto_datos, 
-        [],  # Sin datos de prueba
-        profundidad_max,
-        tamano_min,
-        proporcion_muestra,
-        num_arboles,
-        int(sqrt(len(conjunto_datos[0])-1))
-    )
+    # Mezclar y recortar datos
+    shuffle(datos)
+    total = int(len(datos)*porc_datos)
+    sample = datos[:total]
+
+    # División de datos
+    # Separa los datos en conjuntos de entrenamiento y prueba
+    corte = int(len(sample)*porc_entrenamiento)
+    train_set = sample[:corte]
+    test_set  = sample[corte:]
+
+    # Parámetros del bosque
     
-    with open('modelo_final.pkl', 'wb') as f:
-        pickle.dump({
-            'modelo': bosque_final,
-            'diccionario_clases': diccionario_clases
-        }, f)
-    print('\nModelo guardado en modelo_final.pkl')
+    # prof_max: Profundidad máxima del árbol
+    prof_max       = 15
+    # tam_min: Tamaño mínimo de los grupos
+    tam_min        = 1
+    # prop_boot: Proporción de la muestra
+    prop_boot      = 1.0
+    # n_trees: Número de árboles en el bosque
+    n_trees        = 100
+    # n_feats: Número de características a considerar
+    n_feats        = int(sqrt(len(train_set[0])-1))
+
+# Carga el modelo si existe, de lo contrario entrena y guarda el modelo
+    if os.path.exists(modelo_path):
+        print(f"Cargando modelo desde '{modelo_path}'...")
+        with open(modelo_path, 'rb') as f:
+            bosque = pickle.load(f)
+        # Solo hacemos predicción
+        _, preds = bosque, [max(set([predecir_arbol(a, f) for a in bosque]), key=lambda v: [predecir_arbol(a, f) for a in bosque].count) for f in test_set]
+    else:
+        # Entrenar y guardar
+        bosque, preds = random_forest(train_set, test_set, prof_max, tam_min, prop_boot, n_trees, n_feats)
+        print(f"Guardando modelo en '{modelo_path}'...")
+        with open(modelo_path, 'wb') as f:
+            pickle.dump(bosque, f)
+
+    # Evaluación
+    reales = [r[-1] for r in test_set]
+    acc = exactitud(reales, preds)
+    print(f"Exactitud: {acc:.3f}%")
