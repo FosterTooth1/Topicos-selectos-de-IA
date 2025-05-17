@@ -1,0 +1,8 @@
+# Ignorar todos los archivos .pkl
+*.pkl
+
+# Entornos virtuales y dependencias
+venv/
+env/
+node_modules/
+__pycache__/
