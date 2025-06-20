@@ -1,0 +1,194 @@
+centro_cultural_id,centro_cultural_nombre,municipio_id,nom_mun,gmaps_longitud,gmaps_latitud
+289,Centro Regional de Cultura de Acambay Dr. Maximiliano Ruiz Castañeda,1,Acambay de Ruíz Castañeda,-99.84527,19.95399
+367,Casa de Cultura Aculmaitl,2,Acolman,-98.91201,19.63406
+959,Casa de Cultura Aculco,3,Aculco,-99.8274,20.09893
+2218,Casa de Cultura Lic. César Camacho Quiroz,4,Almoloya de Alquisiras,0.0,0.0
+2220,Casa de Cultura Ignacio Manuel Altamirano,6,Almoloya del Río,-99.48889,19.15949
+406,Casa de Cultura Ricardo García Álvarez,7,Amanalco,0.0,0.0
+2221,Casa de Cultura Municipal Profr. Enrique Gómez García,8,Amatepec,-100.18722,18.68456
+3872,Casa del Pueblo Amecameca,9,Amecameca,-98.77535,19.13204
+1246,Centro Regional de Cultura de  Apaxco,10,Apaxco,-99.1746,19.97633
+568,Centro Cultural Atenco José Enrique Espinoza Suárez,11,Atenco,-98.91674,19.55239
+304,Casa de la Cultura Agua Blanca,12,Atizapán,0.0,0.0
+408,Centro Regional de Cultura Atizapán de Zaragoza Lic. Adolfo López Mateos,13,Atizapán de Zaragoza,-99.23553,19.57263
+3859,Centro Cultural La Cuadra de Luis Barragán,13,Atizapán de Zaragoza,-99.22586,19.57548
+3311,Centro Cultural Calacoaya,13,Atizapán de Zaragoza,-99.235,19.54317
+1247,Centro Regional de Cultura de Atlacomulco Lic. Isidro Fabela,14,Atlacomulco,-99.87377,19.79849
+305,Casa de Cultura Atlauhpanecatl,15,Atlautla,0.0,0.0
+306,Casa de Cultura Toltecapan,16,Axapusco,0.0,0.0
+307,Casa Cultura Aquiauhtzin ,17,Ayapango,-98.80132,19.12639
+308,Casa de Cultura de Calimaya,18,Calimaya,-99.61861,19.16323
+2389,Casa de Cultura Leona Vicario,19,Capulhuac,0.0,0.0
+75,Casa de Cultura Calmecac,20,Coacalco de Berriozábal,0.0,0.0
+3352,Centro Cultural Baálamk'aan House Theater,20,Coacalco de Berriozábal,-99.10657,19.63405
+74,Casa de la Cultura Coatepec Harinas,21,Coatepec Harinas,0.0,0.0
+411,Casa de Cultura Cocotli,22,Cocotitlán,-98.86565,19.23612
+2230,Casa de Cultura Nezahualcóyotl,23,Coyotepec,0.0,0.0
+413,Casa de la Cultura Luis Nishizawa Flores,24,Cuautitlán,-99.1812,19.6683
+2231,Centro Regional de Cultura de Chalco Chimalpahín,25,Chalco,-98.89978,19.26402
+2234,Casa de Cultura Lic. Julián Díaz Arias,27,Chapultepec,0.0,0.0
+315,Casa de Cultura Chiautla,28,Chiautla,0.0,0.0
+950,Casa de la Cultura Chicoloapan,29,Chicoloapan,0.0,0.0
+960,Casa de Cultura Chiconcuac,30,Chiconcuac,0.0,0.0
+961,Casa de Cultura Chimalhuacán,31,Chimalhuacán,-98.9456,19.41813
+414,Casa de Cultura Lic. Adolfo López Mateos,32,Donato Guerra,-100.14325,19.30842
+1033,Centro Cultural del ISSSTE de Ecatepec,33,Ecatepec de Morelos,-99.05169,19.56528
+1357,Centro Regional de Cultura de Ecatepec José María Morelos y Pavón,33,Ecatepec de Morelos,-99.04759,19.59958
+2628,Centro Cultural y Recreativo de Ecatepec,33,Ecatepec de Morelos,-99.04497,19.51207
+883,Casa de Cultura Pedro Patiño Ixtolique,34,Ecatzingo,0.0,0.0
+3453,Centro Socio Cultural El Dorado,35,Huehuetoca,-99.2032,19.88451
+3452,Centro Socio Cultural Josefa Ortiz de Domínguez,35,Huehuetoca,-99.18415,19.82162
+945,Centro Socio Cultural de Artes José Pablo Moncayo,35,Huehuetoca,-99.21887,19.83369
+271,Casa de Cultura Fernando de Alba Ixtlilxóchitl,36,Hueypoxtla,-99.07832,19.90782
+2696,Casa de Cultura El Jagüey,37,Huixquilucan,-99.3046,19.38479
+582,Casa de Cultura Sor Juana Inés de la Cruz,37,Huixquilucan,-99.34092,19.35765
+288,Casa de Cultura Isidro Fabela,38,Isidro Fabela,-99.41833,19.55554
+436,Casa de la Cultura Ixtapaluca,39,Ixtapaluca,-98.88401,19.31482
+567,Casa de Cultura Químico José Donaciano Morales y  Mier Altamirano,42,Ixtlahuaca,-99.76784,19.56908
+3772,Casa de Cultura  Químico José Donaciano Morales y Mier Altamirano,42,Ixtlahuaca,-99.76917,19.56981
+2,Casa de Cultura Sor Juana Inés de la Cruz,43,Xalatlaco,0.0,0.0
+293,Casa de Cultura El Capulín,44,Jaltenco,0.0,0.0
+294,Casa de Cultura Mtra. Amalia Márquez Padilla,45,Jilotepec,0.0,0.0
+583,Casa de Cultura Sor Juana Inés de la Cruz,47,Jiquipilco,0.0,0.0
+311,Casa de Cultura Lic. Diego de Nájera Yanguas,48,Jocotitlán,-99.7862,19.71051
+439,Casa de Cultura Ángel Zamora Espinosa,50,Juchitepec,-98.88124,19.0988
+957,Casa de Cultura Profr. Adrián Ortega Monroy,51,Lerma,-99.515,19.28684
+70,Casa de Cultura Malinalxóchitl,52,Malinalco,0.0,0.0
+404,Casa de Cultura Maximiano Sánchez y Pérez,53,Melchor Ocampo,-99.1468,19.69868
+86,Casa de Cultura de Metepec,54,Metepec,0.0,0.0
+772,Casa Tunastral,54,Metepec,-99.59714,19.25286
+319,Casa de Cultura de Mexicaltzingo,55,Mexicaltzingo,-99.58863,19.20814
+320,Casa de Cultura Hemeterio Valverde y Téllez,56,Morelos,0.0,0.0
+2803,Centro Cultural Acatlán,57,Naucalpan de Juárez,-99.24827,19.48537
+1438,Casa de Cultura Parque Naucalli,57,Naucalpan de Juárez,-99.24208,19.49157
+2239,Casa de Cultura Chamapa ,57,Naucalpan de Juárez,0.0,0.0
+2673,Centro Cultural Ágora	,57,Naucalpan de Juárez,0.0,0.0
+3068,Casa de Cultura Valle de Aragón,58,Nezahualcóyotl,-99.05247,19.48834
+3820,Casa de Cultura Metropolitana Maestro Roberto Ruiz,58,Nezahualcóyotl,-99.03452,19.39602
+3821,Centro Cultural Municipal Dr. Jaime Torres Bodet,58,Nezahualcóyotl,-99.01051,19.40482
+3818,Centro Cultural El Castillito ,58,Nezahualcóyotl,-99.00787,19.40412
+3817,Casa de la Cultura Ciudad Lago Epitacio Álvarez de León,58,Nezahualcóyotl,-99.04766,19.45474
+3814,Casa de Cultura Bosques de Aragón Mauricio García Vega,58,Nezahualcóyotl,-99.05104,19.47331
+2658,Casa Maha Foro Cultural,58,Nezahualcóyotl,0.0,0.0
+2385,Centro Cultural Casa Las 2 Fridas,58,Nezahualcóyotl,-98.99499,19.38692
+3786,Centro Cultural Nezahualcóyotl,58,Nezahualcóyotl,-99.03326,19.42127
+101,Casa de Cultura Metropolitana,58,Nezahualcóyotl,-99.0343,19.39579
+602,Casa de Cultura Ciudad Lago,58,Nezahualcóyotl,-99.0476,19.4548
+601,Casa de Cultura Las Águilas,58,Nezahualcóyotl,-98.99771,19.38404
+62,Casa de Cultura Campestre Guadalupana,58,Nezahualcóyotl,-99.05189,19.48568
+3069,Casa de Cultura Bosques de Aragón,58,Nezahualcóyotl,-99.05087,19.47316
+2639,Centro Cultural El Castillito,58,Nezahualcóyotl,-99.00965,19.40325
+2140,Centro Cultural Municipal Dr. Jaime Torres Bodet,58,Nezahualcóyotl,-99.01073,19.40408
+2806,Centro Cultural Aragón UNAM,58,Nezahualcóyotl,0.0,0.0
+1229,Centro Cultural del ISSSTE Nezahualcóyotl,58,Nezahualcóyotl,0.0,0.0
+1231,Centro Regional de Cultura de Nezahualcóyotl,58,Nezahualcóyotl,0.0,0.0
+2272,Módulo Cultural Multifuncional Nezahualcóyotl,58,Nezahualcóyotl,-99.01935,19.42315
+3070,Casa de Cultura Rey Neza,58,Nezahualcóyotl,-98.98338,19.39911
+3822,Centro Municipal de Artes Aplicadas ,58,Nezahualcóyotl,-99.03012,19.43027
+3815,Casa de Cultura Campestre Guadalupana Lic. Prospero Domínguez Trejo,58,Nezahualcóyotl,-99.05162,19.48523
+3816,Casa de Cultura Valle de Aragón Pedro Martinez Osorio,58,Nezahualcóyotl,-99.05229,19.48887
+3819,Casa de Cultura Unidad Rey Neza Maestro Urbano Cruz Morales ,58,Nezahualcóyotl,-98.98325,19.39922
+3451,Casa de Cultura Toltecalli,59,Nextlalpan,-99.07844,19.73367
+322,Casa de Cultura Cualcalli,59,Nextlalpan,-99.05117,19.72375
+534,Casa de Cultura Carlos Castillo Peraza,60,Nicolás Romero,0.0,0.0
+285,Casa de Cultura Nicolás Romero La Colmena,60,Nicolás Romero,0.0,0.0
+3359,Centro Cultural Atelier de Arte 18,60,Nicolás Romero,-99.29341,19.60876
+2240,Casa de Cultura del Pueblo de Barrón,60,Nicolás Romero,0.0,0.0
+2241,Casa de Cultura María Elena Vásquez,61,Nopaltepec,-98.70955,19.77928
+1374,Centro Regional de Cultura de Ocoyoacac,62,Ocoyoacac,-99.46121,19.27249
+1358,Unidad Cultural de Ocuilán,63,Ocuilan,0.0,0.0
+955,Casa de Cultura Abraham Ángel,64,El Oro,0.0,0.0
+1085,Casa Regional de Cultura y Casa Museo Gonzalo Carrasco,65,Otumba,0.0,0.0
+3787,Centro Regional de Cultura de Otumba,65,Otumba,-98.7575,19.69985
+2242,Casa de Cultura Hermanos Flores Magón,66,Otzoloapan,0.0,0.0
+325,Casa de Cultura Ocelotl,67,Otzolotepec,0.0,0.0
+48,Casa de Cultura José Antonio Arzate,68,Ozumba,0.0,0.0
+329,Casa de Cultura Papalotla,69,Papalotla,-98.858,19.56389
+2243,Casa de Cultura Municipal de Papalotla,69,Papalotla,-98.85806,19.56338
+3873,Centro de Artes y Oficios Carmen Serdán Alatriste,70,La Paz,-98.97956,19.35378
+3867,Centro Comunitario Cultural Ciudad Retoño,70,La Paz,-98.98238,19.36871
+274,Casa de Cultura La Paz,70,La Paz,0.0,0.0
+2244,Casa de Cultura Polotitlán,71,Polotitlán,0.0,0.0
+1366,Casa de Cultura Profr. José Copula Moreno,72,Rayón,0.0,0.0
+603,Casa de Cultura Profr. Jesús Gómez Nava,74,San Felipe del Progreso,-99.95369,19.71369
+2268,Casa de Cultura Neteotiloyan,75,San Martín de las Pirámides,-98.82946,19.70744
+2245,Casa de Cultura Profra. Rosa Nava de López,76,San Mateo Atenco,0.0,0.0
+334,Casa de Cultura San Mateo Atenco,76,San Mateo Atenco,-99.52751,19.26511
+948,Casa de Cultura Cuitepec San Simón de Guerrero,77,San Simón de Guerrero,-100.00736,19.02315
+345,Casa de Cultura Santiago Santa Ana,78,Santo Tomás,0.0,0.0
+938,Casa de Cultura Soyaniquilpan de Juárez,79,Soyaniquilpan de Juárez,0.0,0.0
+242,Casa de Cultura Dr. José María Coss,80,Sultepec,0.0,0.0
+247,Casa de Cultura Felipe Villanueva,81,Tecámac,-98.97331,19.71272
+1088,Centro Regional de Cultura de Tejupilco,82,Tejupilco,-100.14739,18.89669
+252,Casa de Cultura In Acatlixhuayan In Temamatzolli,83,Temamatla,-98.86988,19.2028
+585,Casa de Cultura Temazcalli,84,Temascalapa,-98.86334,19.84281
+433,Centro Regional de Cultura José María Velasco,85,Temascalcingo,0.0,0.0
+3788,Centro Regional de Cultura de Temascalcingo José Ma. Velasco,85,Temascalcingo,-100.00245,19.91736
+98,Casa de Cultura 2 de Marzo,87,Temoaya,0.0,0.0
+1101,Centro Regional de Cultura de Tenancingo Joaquín Solache Monroy,88,Tenancingo,-99.58517,18.96393
+100,Casa de Cultura Ollin Coatl,89,Tenango del Aire,0.0,0.0
+3421,Centro Cultural León Guzmán ,90,Tenango del Valle,-99.59155,19.10412
+569,Casa de Cultura Narciso Bassols,90,Tenango del Valle,-99.59409,19.09921
+76,Casa de Cultura Teohuilloyocan,91,Teoloyucan,-99.18471,19.747
+2232,Casa de Cultura Ing. Heberto Castillo,92,Teotihuacán,-98.86698,19.68464
+516,Casa de Cultura Rosario de la Peña,94,Tepetlixpa,-458.81871,19.02977
+1373,Centro Regional de Cultura Nepantla Sor Juana Inés de la Cruz,94,Tepetlixpa,-98.84112,18.97876
+284,Casa de Cultura de Tepotzotlán,95,Tepotzotlán,-99.22396,19.71464
+255,Casa de Cultura Tequixquiac,96,Tequixquiac,0.0,0.0
+2248,Centro de Desarrollo Social Integral,96,Tequixquiac,-99.14896,19.91036
+287,Centro Municipal de Arte y Cultura de Texcalyacac,98,Texcalyacac,0.0,0.0
+970,Centro Cultural del ISSSTE de Chapingo,99,Texcoco,0.0,0.0
+2249,Centro Regional de Cultura de Texcoco Casa del Constituyente,99,Texcoco,-98.87974,19.51379
+2630,Centro Cultural Mexiquense Bicentenario,99,Texcoco,-98.89953,19.45251
+944,Casa de Cultura Tezoyuca Nahui Olin,100,Tezoyuca,-98.9063,19.59127
+2250,Casa de Cultura Profr. Carlos Hank González,101,Tianguistenco,-99.46745,19.18407
+2276,Módulo Cultural Multifuncional Santiago Tianguistenco,101,Tianguistenco,-99.51751,19.19658
+49,Casa de Cultura Lic. Adolfo López Mateos,102,Timilpan,-99.73401,19.8752
+237,Casa de Cultura Xochipilli,103,Tlalmanalco,-98.8033,19.20593
+2960,Centro de la Cultura y las Artes José Emilio Pacheco ,104,Tlalnepantla de Baz,-99.19574,19.53649
+3014,Casa de Cultura Pedro Labrada Cervantes,104,Tlalnepantla de Baz,-99.08512,19.5316
+3010,Casa de Cultura Lázaro Cárdenas,104,Tlalnepantla de Baz,-99.11942,19.53437
+3009,Casa de Cultura José María Velasco,104,Tlalnepantla de Baz,-99.21174,19.5708
+3002,Casa de Cultura Luis Donaldo Colosio,104,Tlalnepantla de Baz,-99.18746,19.57206
+3001,Casa de Cultura Sor Juana Inés de la Cruz,104,Tlalnepantla de Baz,0.0,0.0
+3011,Casa de Cultura Lic. Javier Pérez Olegaray,104,Tlalnepantla de Baz,-99.18502,19.5524
+3004,Casa de Cultura El Arenal,104,Tlalnepantla de Baz,-99.16408,19.53008
+3008,Casa de Cultura José C. Ángeles,104,Tlalnepantla de Baz,-99.0887,19.51612
+3013,Casa de Cultura Lomas de San Andrés,104,Tlalnepantla de Baz,-99.22721,19.54295
+3016,Casa de Cultura San Felipe Ixtacala,104,Tlalnepantla de Baz,-99.17136,19.52161
+3015,Casa de Cultura Prado Vallejo,104,Tlalnepantla de Baz,-99.16581,19.50594
+3006,Casa de Cultura Guillermo Padilla Díaz de León,104,Tlalnepantla de Baz,-99.17366,19.55109
+2206,Centro Cultural Iztacala,104,Tlalnepantla de Baz,0.0,0.0
+3007,Casa de Cultura Izcalli Pirámide,104,Tlalnepantla de Baz,-99.17432,19.54222
+3369,Centro Cultural Rombo Negro,104,Tlalnepantla de Baz,-99.195,19.53852
+3012,Casa de Cultura Loma Bonita (Temporalmente cerrado),104,Tlalnepantla de Baz,-99.17836,19.55936
+3017,Casa de Cultura San Lucas Tepetlacalco (Temporalmente cerrado),104,Tlalnepantla de Baz,-99.22711,19.52434
+3018,Casa de Cultura Vista Hermosa,104,Tlalnepantla de Baz,-99.22293,19.51843
+3028,Centro Tolzú,106,Toluca,-99.65236,19.29028
+739,Centro Toluqueño de Escritores,106,Toluca,-99.65605,19.29122
+2251,Centro Regional de Cultura de Toluca,106,Toluca,-99.65369,19.27205
+665,Alianza Francesa de Toluca,106,Toluca,-99.65938,19.29162
+709,Centro Cultural del ISSSTE de Toluca,106,Toluca,-99.67005,19.29045
+728,Centro de Actividades Culturales (CEAC),106,Toluca,-99.65159,19.28634
+725,Centro Cultural Universitario Casa de las Diligencias,106,Toluca,-99.65431,19.29183
+3054,Casa de Cultura de Cacalomacán,106,Toluca,-99.7081,19.25369
+687,Centro Cultural Mexiquense,106,Toluca,-99.70252,19.27197
+1083,Centro Cultural Tonatiuh,107,Tonatico,-99.67076,18.80207
+295,Casa de Cultura Reynalda Morales,107,Tonatico,-99.67083,18.80202
+958,Casa de Cultura Víctor Manuel Urbán Velazco,108,Tultepec,0.0,0.0
+587,Casa de Cultura Tultitlán,109,Tultitlán,-99.16456,19.64379
+3442,Centro Cultural Ágora Elena Poniatowska,109,Tultitlán,-99.09313,19.67412
+3443,Casa de Cultura y Biblioteca Real del Bosque,109,Tultitlán,-99.14063,19.61654
+1471,Centro Regional de Cultura Joaquín Arcadio Pagaza,110,Valle de Bravo,0.0,0.0
+240,Casa de Cultura Attezi,111,Villa de Allende,0.0,0.0
+236,Casa de la Cultura Dr. Jorge Jiménez Cantú,112,Villa del Carbón,0.0,0.0
+73,Casa de Cultura Tecualoyan,113,Villa Guerrero,-99.64233,18.9621
+1360,Casa de Cultura Miguel Ángel Martínez,114,Villa Victoria,0.0,0.0
+2265,Casa del Pueblo,114,Villa Victoria,0.0,0.0
+300,Casa de Cultura Xonacatlán,115,Xonacatlán,0.0,0.0
+302,Casa de la Cultura Sor Juana Inés de la Cruz,116,Zacazonapan,-100.25554,19.07078
+301,Casa de la Cultura Joaquín Velázquez Cárdenas y León,117,Zacualpan,-99.77493,18.72368
+2266,Casa de Cultura Matilde Zuñiga,118,Zinacantepec,0.0,0.0
+588,Casa de la Cultura Wenceslao Labra,120,Zumpango,-99.10123,19.79969
+1227,Centro Regional de Cultura de Cuautitlán Izcalli,121,Cuautitlán Izcalli,-99.20536,19.6581
+3769,Casa de Cultura de Tononitla,125,Tonanitla,-99.05064,19.68721

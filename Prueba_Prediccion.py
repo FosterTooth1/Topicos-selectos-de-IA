@@ -10,7 +10,7 @@ Modelo_RandomForest = joblib.load(model_path_local)
 label_encoders = joblib.load(encoders_path_local)
 
 # Ejemplo: cargar nuevos datos para predecir
-df_new = pd.read_csv("Prueba.csv")
+df_new = pd.read_csv("Prueba_Prediccion.csv")
 
 # Aplicar codificación usando los encoders cargados
 for col, le in label_encoders.items():
