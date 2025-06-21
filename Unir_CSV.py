@@ -87,7 +87,7 @@ def unir_csvs_en_carpeta(folder_path, output_path):
         if fname.lower().endswith('.csv'):
             tipo = os.path.splitext(fname)[0]  # por ejemplo "Biblioteca" o "Casa_artesania"
             # Normalizar tipo: minúsculas y reemplazar '_' por espacio
-            tipo = tipo.lower().replace('_', ' ').strip()
+            tipo = tipo.replace('_', ' ').strip()
             fullpath = os.path.join(folder_path, fname)
             try:
                 df = procesar_csv(fullpath, tipo)

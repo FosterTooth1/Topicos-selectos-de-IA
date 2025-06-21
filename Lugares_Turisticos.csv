@@ -1,431 +1,431 @@
 id,nombre,municipio_id,nombre_municipio,longitud,latitud,tipo
-1,Biblioteca del Centro de Maestros de Chiautla de Tapia,28,Chiautla,-98.88279,19.54944,biblioteca
-2,Biblioteca Cristina Payán,33,Ecatepec de Morelos,-99.03569,19.6003,biblioteca
-3,"Biblioteca del Centro de Enseñanza, Inv. y Ext. en Producción Porcina",45,Jilotepec,-99.5104,19.95739,biblioteca
-4,Biblioteca campus Lomas Verdes,57,Naucalpan de Juárez,-99.26304,19.5071,biblioteca
-5,"Biblioteca de la Escuela Superior de Ingeniería y Arquitectura (ESIA), Unidad Tecamachalco",57,Naucalpan de Juárez,-99.22955,19.43019,biblioteca
-6,Centro de Información y Documentación de la FES Acatlán,57,Naucalpan de Juárez,-99.24619,19.48367,biblioteca
-7,Biblioteca de la Universidad Tecnológica de Nezahualcoyotl,58,Nezahualcóyotl,-98.98802,19.40425,biblioteca
-8,Biblioteca Jesús Reyes Heroles de la FES Aragón,58,Nezahualcóyotl,-99.04538,19.47532,biblioteca
-9,Centro de Información y Documentación de Nezahualcóyotl,58,Nezahualcóyotl,-99.01064,19.40419,biblioteca
-10,Biblioteca de la Universidad Intercultural del Estado de México,74,San Felipe del Progreso,-99.94008,19.7146,biblioteca
-11,Biblioteca de la Universidad Politécnica de Tecámac,81,Tecámac,-98.97753,19.71413,biblioteca
-12,Biblioteca del Centro de Estudios Teotihuacanos,92,Teotihuacán,-98.83389,19.69106,biblioteca
-13,Biblioteca Pablo Ignacio Martínez del Río,95,Tepotzotlán,-99.22138,19.71296,biblioteca
-14,Biblioteca de la Universidad Politécnica de Texcoco,99,Texcoco,-98.89945,19.45067,biblioteca
-15,Unidad de Documentación Científica de la FES Iztacala,104,Tlalnepantla de Baz,-99.18951,19.52445,biblioteca
-16,Biblioteca del Museo Leopoldo Flores,106,Toluca,-99.67828,19.2865,biblioteca
-17,Biblioteca de la Casa de la Cultura Jurídica José María Lozano,106,Toluca,-99.63951,19.28979,biblioteca
-18,"Biblioteca Felipe Montemayor García, Centro INAH Estado de México",106,Toluca,-99.66009,19.29048,biblioteca
-19,Biblioteca Lic. César Camacho Quiroz,106,Toluca,-99.67838,19.28136,biblioteca
-20,Centro de Información y Documentación de la UPVM,109,Tultitlán,-99.127,19.64339,biblioteca
-21,Biblioteca del Centro de Información Juan Francisco Ealy Ortiz,110,Valle de Bravo,-100.1319,19.23915,biblioteca
-22,Biblioteca del Museo Virreinal,118,Zinacantepec,-99.73547,19.28343,biblioteca
-23,"Biblioteca UVM, Campus Lago de Guadalupe",121,Cuautitlán Izcalli,-99.24095,19.63397,biblioteca
-24,Biblioteca Campo 4,121,Cuautitlán Izcalli,-99.19102,19.69023,biblioteca
-25,Biblioteca de la FES Cuautitlán Campo 1,121,Cuautitlán Izcalli,-99.20804,19.63667,biblioteca
-26,Biblioteca del Tecnológico Universitario del Valle de Chalco,122,Valle de Chalco Solidaridad,-98.94594,19.27932,biblioteca
-27,"Tienda de Artesanías CASART, San Martín de las Pirámides",0,Total de la entidad México,-98.83376,19.70504,casa artesania
-28,Casa de Artesanías de Acambay,1,Acambay de Ruíz Castañeda,0.0,0.0,casa artesania
-29,Artesanías Nezahualcóyotl,58,Nezahualcóyotl,-99.00126,19.411,casa artesania
-30,"Tienda de Artesanías CASART, Otumba",65,Otumba,-98.7575,19.69985,casa artesania
-31,"Tienda de Artesanías CASART, Tenancingo",88,Tenancingo,-99.5851,18.96391,casa artesania
-32,"Tienda de Artesanías CASART Texcoco, Casa del Constituyente",99,Texcoco,-98.88052,19.51375,casa artesania
-33,"Tienda de Artesanías CASART, Texcoco (Centro Cultural Mexiquense Bicentenario)",99,Texcoco,-98.89807,19.45341,casa artesania
-34,"Tienda de Artesanías CASART, Parque de la Ciencia Fundadores",106,Toluca,-99.65517,19.29397,casa artesania
-35,Tienda de Artesanías CASART Aeropuerto Internacional de Toluca,106,Toluca,-99.57096,19.33856,casa artesania
-36,"Tienda de Artesanías CASART, Chalco",106,Toluca,-98.8996,19.26339,casa artesania
-37,"Tienda de Artesanías CASART, Toluca",106,Toluca,-99.63782,19.28541,casa artesania
-38,"Tienda de Artesanías CASART, Museo Torres Bicentenario",106,Toluca,-99.62911,19.28778,casa artesania
-39,Casa de Artesanías de Valle de Bravo,110,Valle de Bravo,0.0,0.0,casa artesania
-40,San Francisco de Asis,14,Atlacomulco,-99.8705,19.8012,catedral
-41,San Buenaventura,24,Cuautitlán,-99.17939,19.66907,catedral
-42,Sagrado Corazón de Jesús,33,Ecatepec de Morelos,-99.04665,19.59951,catedral
-43,Jesús Señor de la Misericordia,58,Nezahualcóyotl,-99.00063,19.40929,catedral
-44,Corpus Cristi,104,Tlalnepantla de Baz,-99.19483,19.5379,catedral
-45,San José,106,Toluca,-99.65725,19.29182,catedral
-46,Centro Regional de Cultura de Acambay Dr. Maximiliano Ruiz Castañeda,1,Acambay de Ruíz Castañeda,-99.84527,19.95399,centros culturales
-47,Casa de Cultura Aculmaitl,2,Acolman,-98.91201,19.63406,centros culturales
-48,Casa de Cultura Aculco,3,Aculco,-99.8274,20.09893,centros culturales
-49,Casa de Cultura Lic. César Camacho Quiroz,4,Almoloya de Alquisiras,0.0,0.0,centros culturales
-50,Casa de Cultura Ignacio Manuel Altamirano,6,Almoloya del Río,-99.48889,19.15949,centros culturales
-51,Casa de Cultura Ricardo García Álvarez,7,Amanalco,0.0,0.0,centros culturales
-52,Casa de Cultura Municipal Profr. Enrique Gómez García,8,Amatepec,-100.18722,18.68456,centros culturales
-53,Casa del Pueblo Amecameca,9,Amecameca,-98.77535,19.13204,centros culturales
-54,Centro Regional de Cultura de Apaxco,10,Apaxco,-99.1746,19.97633,centros culturales
-55,Centro Cultural Atenco José Enrique Espinoza Suárez,11,Atenco,-98.91674,19.55239,centros culturales
-56,Casa de la Cultura Agua Blanca,12,Atizapán,0.0,0.0,centros culturales
-57,Centro Regional de Cultura Atizapán de Zaragoza Lic. Adolfo López Mateos,13,Atizapán de Zaragoza,-99.23553,19.57263,centros culturales
-58,Centro Cultural La Cuadra de Luis Barragán,13,Atizapán de Zaragoza,-99.22586,19.57548,centros culturales
-59,Centro Cultural Calacoaya,13,Atizapán de Zaragoza,-99.235,19.54317,centros culturales
-60,Centro Regional de Cultura de Atlacomulco Lic. Isidro Fabela,14,Atlacomulco,-99.87377,19.79849,centros culturales
-61,Casa de Cultura Atlauhpanecatl,15,Atlautla,0.0,0.0,centros culturales
-62,Casa de Cultura Toltecapan,16,Axapusco,0.0,0.0,centros culturales
-63,Casa Cultura Aquiauhtzin,17,Ayapango,-98.80132,19.12639,centros culturales
-64,Casa de Cultura de Calimaya,18,Calimaya,-99.61861,19.16323,centros culturales
-65,Casa de Cultura Leona Vicario,19,Capulhuac,0.0,0.0,centros culturales
-66,Casa de Cultura Calmecac,20,Coacalco de Berriozábal,0.0,0.0,centros culturales
-67,Centro Cultural Baálamk'aan House Theater,20,Coacalco de Berriozábal,-99.10657,19.63405,centros culturales
-68,Casa de la Cultura Coatepec Harinas,21,Coatepec Harinas,0.0,0.0,centros culturales
-69,Casa de Cultura Cocotli,22,Cocotitlán,-98.86565,19.23612,centros culturales
-70,Casa de Cultura Nezahualcóyotl,23,Coyotepec,0.0,0.0,centros culturales
-71,Casa de la Cultura Luis Nishizawa Flores,24,Cuautitlán,-99.1812,19.6683,centros culturales
-72,Centro Regional de Cultura de Chalco Chimalpahín,25,Chalco,-98.89978,19.26402,centros culturales
-73,Casa de Cultura Lic. Julián Díaz Arias,27,Chapultepec,0.0,0.0,centros culturales
-74,Casa de Cultura Chiautla,28,Chiautla,0.0,0.0,centros culturales
-75,Casa de la Cultura Chicoloapan,29,Chicoloapan,0.0,0.0,centros culturales
-76,Casa de Cultura Chiconcuac,30,Chiconcuac,0.0,0.0,centros culturales
-77,Casa de Cultura Chimalhuacán,31,Chimalhuacán,-98.9456,19.41813,centros culturales
-78,Casa de Cultura Lic. Adolfo López Mateos,32,Donato Guerra,-100.14325,19.30842,centros culturales
-79,Centro Cultural del ISSSTE de Ecatepec,33,Ecatepec de Morelos,-99.05169,19.56528,centros culturales
-80,Centro Regional de Cultura de Ecatepec José María Morelos y Pavón,33,Ecatepec de Morelos,-99.04759,19.59958,centros culturales
-81,Centro Cultural y Recreativo de Ecatepec,33,Ecatepec de Morelos,-99.04497,19.51207,centros culturales
-82,Casa de Cultura Pedro Patiño Ixtolique,34,Ecatzingo,0.0,0.0,centros culturales
-83,Centro Socio Cultural El Dorado,35,Huehuetoca,-99.2032,19.88451,centros culturales
-84,Centro Socio Cultural Josefa Ortiz de Domínguez,35,Huehuetoca,-99.18415,19.82162,centros culturales
-85,Centro Socio Cultural de Artes José Pablo Moncayo,35,Huehuetoca,-99.21887,19.83369,centros culturales
-86,Casa de Cultura Fernando de Alba Ixtlilxóchitl,36,Hueypoxtla,-99.07832,19.90782,centros culturales
-87,Casa de Cultura El Jagüey,37,Huixquilucan,-99.3046,19.38479,centros culturales
-88,Casa de Cultura Sor Juana Inés de la Cruz,37,Huixquilucan,-99.34092,19.35765,centros culturales
-89,Casa de Cultura Isidro Fabela,38,Isidro Fabela,-99.41833,19.55554,centros culturales
-90,Casa de la Cultura Ixtapaluca,39,Ixtapaluca,-98.88401,19.31482,centros culturales
-91,Casa de Cultura Químico José Donaciano Morales y Mier Altamirano,42,Ixtlahuaca,-99.76784,19.56908,centros culturales
-92,Casa de Cultura Químico José Donaciano Morales y Mier Altamirano,42,Ixtlahuaca,-99.76917,19.56981,centros culturales
-93,Casa de Cultura Sor Juana Inés de la Cruz,43,Xalatlaco,0.0,0.0,centros culturales
-94,Casa de Cultura El Capulín,44,Jaltenco,0.0,0.0,centros culturales
-95,Casa de Cultura Mtra. Amalia Márquez Padilla,45,Jilotepec,0.0,0.0,centros culturales
-96,Casa de Cultura Sor Juana Inés de la Cruz,47,Jiquipilco,0.0,0.0,centros culturales
-97,Casa de Cultura Lic. Diego de Nájera Yanguas,48,Jocotitlán,-99.7862,19.71051,centros culturales
-98,Casa de Cultura Ángel Zamora Espinosa,50,Juchitepec,-98.88124,19.0988,centros culturales
-99,Casa de Cultura Profr. Adrián Ortega Monroy,51,Lerma,-99.515,19.28684,centros culturales
-100,Casa de Cultura Malinalxóchitl,52,Malinalco,0.0,0.0,centros culturales
-101,Casa de Cultura Maximiano Sánchez y Pérez,53,Melchor Ocampo,-99.1468,19.69868,centros culturales
-102,Casa de Cultura de Metepec,54,Metepec,0.0,0.0,centros culturales
-103,Casa Tunastral,54,Metepec,-99.59714,19.25286,centros culturales
-104,Casa de Cultura de Mexicaltzingo,55,Mexicaltzingo,-99.58863,19.20814,centros culturales
-105,Casa de Cultura Hemeterio Valverde y Téllez,56,Morelos,0.0,0.0,centros culturales
-106,Centro Cultural Acatlán,57,Naucalpan de Juárez,-99.24827,19.48537,centros culturales
-107,Casa de Cultura Parque Naucalli,57,Naucalpan de Juárez,-99.24208,19.49157,centros culturales
-108,Casa de Cultura Chamapa,57,Naucalpan de Juárez,0.0,0.0,centros culturales
-109,Centro Cultural Ágora,57,Naucalpan de Juárez,0.0,0.0,centros culturales
-110,Casa de Cultura Valle de Aragón,58,Nezahualcóyotl,-99.05247,19.48834,centros culturales
-111,Casa de Cultura Metropolitana Maestro Roberto Ruiz,58,Nezahualcóyotl,-99.03452,19.39602,centros culturales
-112,Centro Cultural Municipal Dr. Jaime Torres Bodet,58,Nezahualcóyotl,-99.01051,19.40482,centros culturales
-113,Centro Cultural El Castillito,58,Nezahualcóyotl,-99.00787,19.40412,centros culturales
-114,Casa de la Cultura Ciudad Lago Epitacio Álvarez de León,58,Nezahualcóyotl,-99.04766,19.45474,centros culturales
-115,Casa de Cultura Bosques de Aragón Mauricio García Vega,58,Nezahualcóyotl,-99.05104,19.47331,centros culturales
-116,Casa Maha Foro Cultural,58,Nezahualcóyotl,0.0,0.0,centros culturales
-117,Centro Cultural Casa Las 2 Fridas,58,Nezahualcóyotl,-98.99499,19.38692,centros culturales
-118,Centro Cultural Nezahualcóyotl,58,Nezahualcóyotl,-99.03326,19.42127,centros culturales
-119,Casa de Cultura Metropolitana,58,Nezahualcóyotl,-99.0343,19.39579,centros culturales
-120,Casa de Cultura Ciudad Lago,58,Nezahualcóyotl,-99.0476,19.4548,centros culturales
-121,Casa de Cultura Las Águilas,58,Nezahualcóyotl,-98.99771,19.38404,centros culturales
-122,Casa de Cultura Campestre Guadalupana,58,Nezahualcóyotl,-99.05189,19.48568,centros culturales
-123,Casa de Cultura Bosques de Aragón,58,Nezahualcóyotl,-99.05087,19.47316,centros culturales
-124,Centro Cultural El Castillito,58,Nezahualcóyotl,-99.00965,19.40325,centros culturales
-125,Centro Cultural Municipal Dr. Jaime Torres Bodet,58,Nezahualcóyotl,-99.01073,19.40408,centros culturales
-126,Centro Cultural Aragón UNAM,58,Nezahualcóyotl,0.0,0.0,centros culturales
-127,Centro Cultural del ISSSTE Nezahualcóyotl,58,Nezahualcóyotl,0.0,0.0,centros culturales
-128,Centro Regional de Cultura de Nezahualcóyotl,58,Nezahualcóyotl,0.0,0.0,centros culturales
-129,Módulo Cultural Multifuncional Nezahualcóyotl,58,Nezahualcóyotl,-99.01935,19.42315,centros culturales
-130,Casa de Cultura Rey Neza,58,Nezahualcóyotl,-98.98338,19.39911,centros culturales
-131,Centro Municipal de Artes Aplicadas,58,Nezahualcóyotl,-99.03012,19.43027,centros culturales
-132,Casa de Cultura Campestre Guadalupana Lic. Prospero Domínguez Trejo,58,Nezahualcóyotl,-99.05162,19.48523,centros culturales
-133,Casa de Cultura Valle de Aragón Pedro Martinez Osorio,58,Nezahualcóyotl,-99.05229,19.48887,centros culturales
-134,Casa de Cultura Unidad Rey Neza Maestro Urbano Cruz Morales,58,Nezahualcóyotl,-98.98325,19.39922,centros culturales
-135,Casa de Cultura Toltecalli,59,Nextlalpan,-99.07844,19.73367,centros culturales
-136,Casa de Cultura Cualcalli,59,Nextlalpan,-99.05117,19.72375,centros culturales
-137,Casa de Cultura Carlos Castillo Peraza,60,Nicolás Romero,0.0,0.0,centros culturales
-138,Casa de Cultura Nicolás Romero La Colmena,60,Nicolás Romero,0.0,0.0,centros culturales
-139,Centro Cultural Atelier de Arte 18,60,Nicolás Romero,-99.29341,19.60876,centros culturales
-140,Casa de Cultura del Pueblo de Barrón,60,Nicolás Romero,0.0,0.0,centros culturales
-141,Casa de Cultura María Elena Vásquez,61,Nopaltepec,-98.70955,19.77928,centros culturales
-142,Centro Regional de Cultura de Ocoyoacac,62,Ocoyoacac,-99.46121,19.27249,centros culturales
-143,Unidad Cultural de Ocuilán,63,Ocuilan,0.0,0.0,centros culturales
-144,Casa de Cultura Abraham Ángel,64,El Oro,0.0,0.0,centros culturales
-145,Casa Regional de Cultura y Casa Museo Gonzalo Carrasco,65,Otumba,0.0,0.0,centros culturales
-146,Centro Regional de Cultura de Otumba,65,Otumba,-98.7575,19.69985,centros culturales
-147,Casa de Cultura Hermanos Flores Magón,66,Otzoloapan,0.0,0.0,centros culturales
-148,Casa de Cultura Ocelotl,67,Otzolotepec,0.0,0.0,centros culturales
-149,Casa de Cultura José Antonio Arzate,68,Ozumba,0.0,0.0,centros culturales
-150,Casa de Cultura Papalotla,69,Papalotla,-98.858,19.56389,centros culturales
-151,Casa de Cultura Municipal de Papalotla,69,Papalotla,-98.85806,19.56338,centros culturales
-152,Centro de Artes y Oficios Carmen Serdán Alatriste,70,La Paz,-98.97956,19.35378,centros culturales
-153,Centro Comunitario Cultural Ciudad Retoño,70,La Paz,-98.98238,19.36871,centros culturales
-154,Casa de Cultura La Paz,70,La Paz,0.0,0.0,centros culturales
-155,Casa de Cultura Polotitlán,71,Polotitlán,0.0,0.0,centros culturales
-156,Casa de Cultura Profr. José Copula Moreno,72,Rayón,0.0,0.0,centros culturales
-157,Casa de Cultura Profr. Jesús Gómez Nava,74,San Felipe del Progreso,-99.95369,19.71369,centros culturales
-158,Casa de Cultura Neteotiloyan,75,San Martín de las Pirámides,-98.82946,19.70744,centros culturales
-159,Casa de Cultura Profra. Rosa Nava de López,76,San Mateo Atenco,0.0,0.0,centros culturales
-160,Casa de Cultura San Mateo Atenco,76,San Mateo Atenco,-99.52751,19.26511,centros culturales
-161,Casa de Cultura Cuitepec San Simón de Guerrero,77,San Simón de Guerrero,-100.00736,19.02315,centros culturales
-162,Casa de Cultura Santiago Santa Ana,78,Santo Tomás,0.0,0.0,centros culturales
-163,Casa de Cultura Soyaniquilpan de Juárez,79,Soyaniquilpan de Juárez,0.0,0.0,centros culturales
-164,Casa de Cultura Dr. José María Coss,80,Sultepec,0.0,0.0,centros culturales
-165,Casa de Cultura Felipe Villanueva,81,Tecámac,-98.97331,19.71272,centros culturales
-166,Centro Regional de Cultura de Tejupilco,82,Tejupilco,-100.14739,18.89669,centros culturales
-167,Casa de Cultura In Acatlixhuayan In Temamatzolli,83,Temamatla,-98.86988,19.2028,centros culturales
-168,Casa de Cultura Temazcalli,84,Temascalapa,-98.86334,19.84281,centros culturales
-169,Centro Regional de Cultura José María Velasco,85,Temascalcingo,0.0,0.0,centros culturales
-170,Centro Regional de Cultura de Temascalcingo José Ma. Velasco,85,Temascalcingo,-100.00245,19.91736,centros culturales
-171,Casa de Cultura 2 de Marzo,87,Temoaya,0.0,0.0,centros culturales
-172,Centro Regional de Cultura de Tenancingo Joaquín Solache Monroy,88,Tenancingo,-99.58517,18.96393,centros culturales
-173,Casa de Cultura Ollin Coatl,89,Tenango del Aire,0.0,0.0,centros culturales
-174,Centro Cultural León Guzmán,90,Tenango del Valle,-99.59155,19.10412,centros culturales
-175,Casa de Cultura Narciso Bassols,90,Tenango del Valle,-99.59409,19.09921,centros culturales
-176,Casa de Cultura Teohuilloyocan,91,Teoloyucan,-99.18471,19.747,centros culturales
-177,Casa de Cultura Ing. Heberto Castillo,92,Teotihuacán,-98.86698,19.68464,centros culturales
-178,Casa de Cultura Rosario de la Peña,94,Tepetlixpa,-458.81871,19.02977,centros culturales
-179,Centro Regional de Cultura Nepantla Sor Juana Inés de la Cruz,94,Tepetlixpa,-98.84112,18.97876,centros culturales
-180,Casa de Cultura de Tepotzotlán,95,Tepotzotlán,-99.22396,19.71464,centros culturales
-181,Casa de Cultura Tequixquiac,96,Tequixquiac,0.0,0.0,centros culturales
-182,Centro de Desarrollo Social Integral,96,Tequixquiac,-99.14896,19.91036,centros culturales
-183,Centro Municipal de Arte y Cultura de Texcalyacac,98,Texcalyacac,0.0,0.0,centros culturales
-184,Centro Cultural del ISSSTE de Chapingo,99,Texcoco,0.0,0.0,centros culturales
-185,Centro Regional de Cultura de Texcoco Casa del Constituyente,99,Texcoco,-98.87974,19.51379,centros culturales
-186,Centro Cultural Mexiquense Bicentenario,99,Texcoco,-98.89953,19.45251,centros culturales
-187,Casa de Cultura Tezoyuca Nahui Olin,100,Tezoyuca,-98.9063,19.59127,centros culturales
-188,Casa de Cultura Profr. Carlos Hank González,101,Tianguistenco,-99.46745,19.18407,centros culturales
-189,Módulo Cultural Multifuncional Santiago Tianguistenco,101,Tianguistenco,-99.51751,19.19658,centros culturales
-190,Casa de Cultura Lic. Adolfo López Mateos,102,Timilpan,-99.73401,19.8752,centros culturales
-191,Casa de Cultura Xochipilli,103,Tlalmanalco,-98.8033,19.20593,centros culturales
-192,Centro de la Cultura y las Artes José Emilio Pacheco,104,Tlalnepantla de Baz,-99.19574,19.53649,centros culturales
-193,Casa de Cultura Pedro Labrada Cervantes,104,Tlalnepantla de Baz,-99.08512,19.5316,centros culturales
-194,Casa de Cultura Lázaro Cárdenas,104,Tlalnepantla de Baz,-99.11942,19.53437,centros culturales
-195,Casa de Cultura José María Velasco,104,Tlalnepantla de Baz,-99.21174,19.5708,centros culturales
-196,Casa de Cultura Luis Donaldo Colosio,104,Tlalnepantla de Baz,-99.18746,19.57206,centros culturales
-197,Casa de Cultura Sor Juana Inés de la Cruz,104,Tlalnepantla de Baz,0.0,0.0,centros culturales
-198,Casa de Cultura Lic. Javier Pérez Olegaray,104,Tlalnepantla de Baz,-99.18502,19.5524,centros culturales
-199,Casa de Cultura El Arenal,104,Tlalnepantla de Baz,-99.16408,19.53008,centros culturales
-200,Casa de Cultura José C. Ángeles,104,Tlalnepantla de Baz,-99.0887,19.51612,centros culturales
-201,Casa de Cultura Lomas de San Andrés,104,Tlalnepantla de Baz,-99.22721,19.54295,centros culturales
-202,Casa de Cultura San Felipe Ixtacala,104,Tlalnepantla de Baz,-99.17136,19.52161,centros culturales
-203,Casa de Cultura Prado Vallejo,104,Tlalnepantla de Baz,-99.16581,19.50594,centros culturales
-204,Casa de Cultura Guillermo Padilla Díaz de León,104,Tlalnepantla de Baz,-99.17366,19.55109,centros culturales
-205,Centro Cultural Iztacala,104,Tlalnepantla de Baz,0.0,0.0,centros culturales
-206,Casa de Cultura Izcalli Pirámide,104,Tlalnepantla de Baz,-99.17432,19.54222,centros culturales
-207,Centro Cultural Rombo Negro,104,Tlalnepantla de Baz,-99.195,19.53852,centros culturales
-208,Casa de Cultura Loma Bonita (Temporalmente cerrado),104,Tlalnepantla de Baz,-99.17836,19.55936,centros culturales
-209,Casa de Cultura San Lucas Tepetlacalco (Temporalmente cerrado),104,Tlalnepantla de Baz,-99.22711,19.52434,centros culturales
-210,Casa de Cultura Vista Hermosa,104,Tlalnepantla de Baz,-99.22293,19.51843,centros culturales
-211,Centro Tolzú,106,Toluca,-99.65236,19.29028,centros culturales
-212,Centro Toluqueño de Escritores,106,Toluca,-99.65605,19.29122,centros culturales
-213,Centro Regional de Cultura de Toluca,106,Toluca,-99.65369,19.27205,centros culturales
-214,Alianza Francesa de Toluca,106,Toluca,-99.65938,19.29162,centros culturales
-215,Centro Cultural del ISSSTE de Toluca,106,Toluca,-99.67005,19.29045,centros culturales
-216,Centro de Actividades Culturales (CEAC),106,Toluca,-99.65159,19.28634,centros culturales
-217,Centro Cultural Universitario Casa de las Diligencias,106,Toluca,-99.65431,19.29183,centros culturales
-218,Casa de Cultura de Cacalomacán,106,Toluca,-99.7081,19.25369,centros culturales
-219,Centro Cultural Mexiquense,106,Toluca,-99.70252,19.27197,centros culturales
-220,Centro Cultural Tonatiuh,107,Tonatico,-99.67076,18.80207,centros culturales
-221,Casa de Cultura Reynalda Morales,107,Tonatico,-99.67083,18.80202,centros culturales
-222,Casa de Cultura Víctor Manuel Urbán Velazco,108,Tultepec,0.0,0.0,centros culturales
-223,Casa de Cultura Tultitlán,109,Tultitlán,-99.16456,19.64379,centros culturales
-224,Centro Cultural Ágora Elena Poniatowska,109,Tultitlán,-99.09313,19.67412,centros culturales
-225,Casa de Cultura y Biblioteca Real del Bosque,109,Tultitlán,-99.14063,19.61654,centros culturales
-226,Centro Regional de Cultura Joaquín Arcadio Pagaza,110,Valle de Bravo,0.0,0.0,centros culturales
-227,Casa de Cultura Attezi,111,Villa de Allende,0.0,0.0,centros culturales
-228,Casa de la Cultura Dr. Jorge Jiménez Cantú,112,Villa del Carbón,0.0,0.0,centros culturales
-229,Casa de Cultura Tecualoyan,113,Villa Guerrero,-99.64233,18.9621,centros culturales
-230,Casa de Cultura Miguel Ángel Martínez,114,Villa Victoria,0.0,0.0,centros culturales
-231,Casa del Pueblo,114,Villa Victoria,0.0,0.0,centros culturales
-232,Casa de Cultura Xonacatlán,115,Xonacatlán,0.0,0.0,centros culturales
-233,Casa de la Cultura Sor Juana Inés de la Cruz,116,Zacazonapan,-100.25554,19.07078,centros culturales
-234,Casa de la Cultura Joaquín Velázquez Cárdenas y León,117,Zacualpan,-99.77493,18.72368,centros culturales
-235,Casa de Cultura Matilde Zuñiga,118,Zinacantepec,0.0,0.0,centros culturales
-236,Casa de la Cultura Wenceslao Labra,120,Zumpango,-99.10123,19.79969,centros culturales
-237,Centro Regional de Cultura de Cuautitlán Izcalli,121,Cuautitlán Izcalli,-99.20536,19.6581,centros culturales
-238,Casa de Cultura de Tononitla,125,Tonanitla,-99.05064,19.68721,centros culturales
-239,Fonoteca del Sistema de Radio y Televisión Mexiquense,54,Metepec,0.0,0.0,fonoteca
-240,Fototeca del Centro de Documentación e Investigación de la Comunidad Judío de México,57,Naucalpan de Juárez,-99.23821,19.42323,fototeca
-241,Fototeca del Centro de Estudios Teotihuacanos,75,San Martín de las Pirámides,-98.86082,19.71209,fototeca
-242,Fototeca del Museo Nacional del Virreinato,95,Tepotzotlán,-99.22166,19.71318,fototeca
-243,Fototeca del Centro INAH Estado de México (CINAHEM),106,Toluca,-99.65831,19.28977,fototeca
-244,Galería del Centro Regional de Cultura Atizapán de Zaragoza,13,Atizapán de Zaragoza,-99.23544,19.57215,galeria
-245,Galeria de Arte del Genoma Mesoamericano,33,Ecatepec de Morelos,-99.05199,19.59686,galeria
-246,"Galería de la Alianza Francesa, Suc. Interlomas",37,Huixquilucan,-99.26934,19.40277,galeria
-247,Galería de Arte y Antiguedades Tarentum,37,Huixquilucan,-99.27008,19.40219,galeria
-248,Recoleta Gouda Art Gallery,37,Huixquilucan,-99.27047,19.40121,galeria
-249,Galería Bertozzi,37,Huixquilucan,-99.28156,19.40385,galeria
-250,Sala de Exposición Xochipilli,39,Ixtapaluca,-98.88408,19.31729,galeria
-251,Galería Leopoldo Flores,42,Ixtlahuaca,-99.75453,19.57291,galeria
-252,Galería Andrés Molina,52,Malinalco,-99.50096,18.95215,galeria
-253,"MONOMONO, Galería de Arte y Estudio",54,Metepec,-99.61049,19.25835,galeria
-254,Galería Carlos & Albert Metepec,54,Metepec,-99.60572,19.26699,galeria
-255,Galería de Arte,54,Metepec,-99.59137,19.2503,galeria
-256,Sala de Arte Emma Rizo,57,Naucalpan de Juárez,-99.24713,19.48418,galeria
-257,Sala de Arte Javier Barros Sierra,57,Naucalpan de Juárez,-99.24741,19.4844,galeria
-258,Casa de Arte y Galería ÓLEO,57,Naucalpan de Juárez,-99.25021,19.51723,galeria
-259,Galería Taquera,58,Nezahualcóyotl,-99.01594,19.40859,galeria
-260,Galería José Luis Cuevas,104,Tlalnepantla de Baz,-99.19575,19.53642,galeria
-261,"Galería de Arte del Tecnológico de Monterrey, campus Toluca",106,Toluca,-99.70635,19.27001,galeria
-262,Galería Universitaria Fernando Cano,106,Toluca,-99.65365,19.28586,galeria
-263,Galería de arte de la plaza González Arratia,106,Toluca,-99.65783,19.291,galeria
-264,Tollocan Galería,106,Toluca,-99.67332,19.28035,galeria
-265,Galería Cafetería,106,Toluca,-99.7032,19.27163,galeria
-266,Galería Arte AIT,106,Toluca,-99.56874,19.33411,galeria
-267,Galeria Tatiana H. Rajkov,110,Valle de Bravo,-100.12381,19.1637,galeria
-268,Victoria Gallery,110,Valle de Bravo,-100.13017,19.18957,galeria
-269,Galería Venado Azul,110,Valle de Bravo,-100.12874,19.1898,galeria
-270,Arthouse Gallery,110,Valle de Bravo,-100.12841,19.18825,galeria
-271,Museo Regional de Acambay Antonio Ruiz Pérez,1,Acambay de Ruíz Castañeda,-99.84583,19.95528,museo
-272,Museo Virreinal de Acolman,2,Acolman,-98.91309,19.63218,museo
-273,Museo Prehistórico de Tepexpan,2,Acolman,-98.9474,19.61377,museo
-274,Museo de Sor Juana Inés de la Cruz,9,Amecameca,-98.77167,19.14163,museo
-275,Museo Internacional de los Volcanes,9,Amecameca,-98.7726,19.14051,museo
-276,Museo de Historia Natural de Casa del Pueblo Amecameca,9,Amecameca,-98.77551,19.13211,museo
-277,Museo Arqueológico Apaxco,10,Apaxco,-99.17455,19.97585,museo
-278,Museo Adolfo López Mateos,13,Atizapán de Zaragoza,-99.24807,19.56311,museo
-279,Museo Isidro Fabela,14,Atlacomulco,-99.87367,19.79841,museo
-280,Museo Histórico de Atlacomulco,14,Atlacomulco,-99.8805,19.79843,museo
-281,Museo Paleontológico Comunitario de la Magdalena Huizachitla,20,Coacalco de Berriozábal,-99.08886,19.63482,museo
-282,"Santuario de la Siempre Virgen María de Guadalupe, Casa de San Juan Diego",24,Cuautitlán,-99.19189,19.66826,museo
-283,Casa Museo de Cartonería,25,Chalco,-98.93202,19.21113,museo
-284,Museo del Centro Regional de Cultura de Chalco Chimalpahin,25,Chalco,-98.89952,19.26293,museo
-285,Museo Comunitario del Pueblo de Tezompa,25,Chalco,-98.96121,19.20671,museo
-286,Planetario Digital de Chimalhuacán,31,Chimalhuacán,-98.96232,19.40758,museo
-287,Museo de Sitio de Chimalhuacán,31,Chimalhuacán,-98.94726,19.41786,museo
-288,Museo Municipal Canto del Cincel,31,Chimalhuacán,-98.98388,19.41924,museo
-289,Museo Chimaltonalli,31,Chimalhuacán,-98.94407,19.41945,museo
-290,"Planetario El Gran Ehécatl, Los Hijos del Dios del Viento",33,Ecatepec de Morelos,-99.0541,19.59557,museo
-291,Museo de la Pluma. Ing. Jesús Humberto Rodríguez Lozano,33,Ecatepec de Morelos,-99.04056,19.51069,museo
-292,"Centro Comunitario Ecatepec, Casa de Morelos",33,Ecatepec de Morelos,-99.03565,19.60036,museo
-293,Museo de Sitio de Vestigios Arqueológicos del Parque Ecológico Ehécatl,33,Ecatepec de Morelos,-99.0541,19.59557,museo
-294,Museo Jurasica,33,Ecatepec de Morelos,-99.05542,19.59379,museo
-295,Museo de Historia Natural de Ecatepec,33,Ecatepec de Morelos,-99.03683,19.54688,museo
-296,Parque Museo del Ferrocarril de Huehuetoca,35,Huehuetoca,-99.2027,19.83545,museo
-297,Museo de Huixquilucan,37,Huixquilucan,-99.34124,19.35803,museo
-298,Museo Tlotzin Pochotl,39,Ixtapaluca,-98.8844,19.31492,museo
-299,Museo de Sitio de Coatepec,39,Ixtapaluca,-98.84732,19.38531,museo
-300,Museo Comunitario Xochiltepetl,50,Juchitepec,-98.88117,19.09858,museo
-301,"Zanbatha, Museo del Valle de la Luna",51,Lerma,-99.51022,19.28657,museo
-302,Museo Universitario Dr. Luis Mario Schneider,52,Malinalco,-99.50115,18.95084,museo
-303,Sala Introductoria a la Zona Arqueológica de Malinalco,52,Malinalco,-99.5034,18.95347,museo
-304,Museo del Barro,54,Metepec,-99.60202,19.25019,museo
-305,Museo del Agua,57,Naucalpan de Juárez,-99.23986,19.45956,museo
-306,Museo Salón Deporte,57,Naucalpan de Juárez,-99.215,19.45754,museo
-307,Museo Tlatilca,57,Naucalpan de Juárez,-99.23203,19.47914,museo
-308,Museo Nezahualcóyotl Acomiztli,58,Nezahualcóyotl,-99.03341,19.421,museo
-309,Museo Arqueológico de Nextlalpan (en proceso de remodelación),59,Nextlalpan,-99.05104,19.72379,museo
-310,Museo Textil Industrial de San Ildefonso,60,Nicolás Romero,-99.2956,19.61981,museo
-311,Museo Dr. José María Luis Mora,62,Ocoyoacac,-99.4609,19.27427,museo
-312,Museo Arqueológico Colonial de Ocuilan,63,Ocuilan,-99.41604,18.97935,museo
-313,Museo de la Minería de El Oro,64,El Oro,-100.13284,19.79848,museo
-314,Museo del Ferrocarril en Otumba,65,Otumba,-98.75696,19.70877,museo
-315,Ex Convento de Oxtotipac,65,Otumba,-98.7927,19.6558,museo
-316,Casa Museo Gonzalo Carrasco,65,Otumba,-98.75742,19.69981,museo
-317,Museo Municipal Techialoyan Tepemaxalco,73,San Antonio la Isla,-99.56917,19.1641,museo
-318,Museo de Murales Teotihuacanos Beatriz de la Fuente,75,San Martín de las Pirámides,-98.8471,19.70039,museo
-319,Sala museográfica de la Casa de Cultura Dr. José María Cos,80,Sultepec,-99.96689,18.85786,museo
-320,Museo de Sitio de San Miguel Ixtapan,82,Tejupilco,-100.15498,18.807,museo
-321,Museo Casa de Madera,89,Tenango del Aire,-98.85558,19.15722,museo
-322,Museo Arqueológico Dr. Román Piña Chan,90,Tenango del Valle,-99.59598,19.11048,museo
-323,Museo Comunitario Quetzalpapalotl,92,Teotihuacán,-98.86924,19.68346,museo
-324,Museo de la Cultura Teotihuacana (museo de sitio),92,Teotihuacán,-98.84957,19.68292,museo
-325,Museo Eremitorio de Fray Domingo de Betanzos,93,Tepetlaoxtoc,-98.82467,19.57314,museo
-326,Museo-Casa Juana Inés,94,Tepetlixpa,-98.83972,18.98005,museo
-327,Museo Nacional del Virreinato,95,Tepotzotlán,-99.22151,19.71338,museo
-328,Museo del Centro Cultural Mexiquense Bicentenario,99,Texcoco,-98.89648,19.45188,museo
-329,Museo de sitio del Parque Ecológico Lago de Texcoco,99,Texcoco,-98.97872,19.48504,museo
-330,Museo del Deporte del Estado de México,99,Texcoco,-98.89817,19.45256,museo
-331,Museo de Biología,99,Texcoco,-98.88874,19.48945,museo
-332,Museo Regional del Pulque y el Maguey Texcoco,99,Texcoco,-98.88293,19.50666,museo
-333,Museo de Geología Dr. José Guadalupe Aguilera Serrano,99,Texcoco,-98.88653,19.49438,museo
-334,Museo Nacional de Agricultura,99,Texcoco,-98.88896,19.4921,museo
-335,Museo Paleontológico de Tocuila,99,Texcoco,-98.90793,19.52065,museo
-336,Museo Comunitario Nonohualca,103,Tlalmanalco,-98.80248,19.20597,museo
-337,Museo Xólotl. San Bartolo Tenayuca,104,Tlalnepantla de Baz,-99.16787,19.53239,museo
-338,Museo de la Escultura Mexica Eusebio Dávalos Hurtado,104,Tlalnepantla de Baz,-99.17378,19.55243,museo
-339,Museo Hacienda de Santa Mónica,104,Tlalnepantla de Baz,-99.23149,19.52884,museo
-340,Museo del Heroico Cuerpo de Bomberos Toluca,106,Toluca,-99.63727,19.28726,museo
-341,Museo de Ciencias Naturales Edomex.,106,Toluca,-99.66083,19.28318,museo
-342,Museo de la Acuarela del Estado de México,106,Toluca,-99.6611,19.28967,museo
-343,Museo del Alfeñique,106,Toluca,-99.64988,19.29204,museo
-344,Pinacoteca Los Autonomistas,106,Toluca,-99.65364,19.28574,museo
-345,Casa Museo Toluca 1920,106,Toluca,-99.66039,19.29032,museo
-346,Museo Auditorio PetStar,106,Toluca,-99.71852,19.42012,museo
-347,Museo del Paisaje José María Velasco,106,Toluca,-99.6579,19.29302,museo
-348,"Museo Gabinetes de Física, Química y Medicina",106,Toluca,-99.66035,19.2735,museo
-349,Museo de la Inquisición procesos y torturas,106,Toluca,-99.65438,19.29397,museo
-350,Museo del Instituto Pedro Nolasco,106,Toluca,-99.66103,19.28796,museo
-351,Museo de Historia Universitaria José María Morelos y Pavón,106,Toluca,-99.65364,19.28578,museo
-352,Museo Universitario Leopoldo Flores,106,Toluca,-99.67826,19.28648,museo
-353,Planetario Parque de la Ciencia Fundadores,106,Toluca,-99.65523,19.29427,museo
-354,Museo Universitario de Historia Natural Manuel M. Villada,106,Toluca,-99.65378,19.28575,museo
-355,Museo Galería de Arte Mexiquense Torres Bicentenario,106,Toluca,-99.62933,19.28752,museo
-356,Museo de Numismática del Estado de México,106,Toluca,-99.70265,19.273,museo
-357,Museo Salón de la Fama del Deportivo Toluca,106,Toluca,-99.66584,19.28764,museo
-358,Museo de la Estampa del Estado de México,106,Toluca,-99.6619,19.28912,museo
-359,Cosmovitral Jardín Botánico de Toluca,106,Toluca,-99.65371,19.29354,museo
-360,Museo de Bellas Artes de Toluca,106,Toluca,-99.65622,19.29431,museo
-361,Museo Felipe Santiago Gutiérrez,106,Toluca,-99.65795,19.29326,museo
-362,Museo Taller Nishizawa,106,Toluca,-99.65794,19.29354,museo
-363,Museo Observatorio Meteorológico Mariano Bárcena,106,Toluca,-99.6534,19.2865,museo
-364,Museo de Sitio de Calixtlahuaca,106,Toluca,-99.6945,19.3337,museo
-365,Museo Hacienda La Pila,106,Toluca,-99.70169,19.27255,museo
-366,Museo de Antropología e Historia,106,Toluca,-99.70165,19.27395,museo
-367,Museo de Arte Moderno del Estado de México,106,Toluca,-99.70327,19.27189,museo
-368,Museo Nacional de la Pirotecnia (Munapi),108,Tultepec,-99.12833,19.68555,museo
-369,Museo Comunitario de Tultitlán,109,Tultitlán,0.0,0.0,museo
-370,Museo Arqueológico de Valle de Bravo,110,Valle de Bravo,-100.13002,19.1871,museo
-371,Museo Joaquín Arcadio Pagaza,110,Valle de Bravo,-100.13027,19.1924,museo
-372,Museo Virreinal de Zinacantepec,118,Zinacantepec,-99.73562,19.28299,museo
-373,Museo Paleontológico de Santa Lucía Quinametzin,120,Zumpango,-98.98718,19.73797,museo
-374,Museo Militar de Aviación Tte. P.A. José Espinosa Fuentes,120,Zumpango,-98.98063,19.74908,museo
-375,Museo de la Brigada de Fusileros Paracaidistas,120,Zumpango,-98.98367,19.72991,museo
-376,Museo Comunitario del Valle de Xico,122,Valle de Chalco Solidaridad,-98.93559,19.27411,museo
-377,Acueducto del Padre Tembleque,65,Otumba,-98.66236,19.83606,patrimonio humanidad
-378,Ciudad Prehispánica de Teotihuacán,92,Teotihuacán,-98.84584,19.69383,patrimonio humanidad
-379,"Foro La Esperanza, Casa del Pueblo",9,Amecameca,-98.77551,19.13211,teatro
-380,Teatro del Pueblo,14,Atlacomulco,-99.87327,19.79862,teatro
-381,Teatro Auditorio Humberto Vidal Mendoza,31,Chimalhuacán,-98.98445,19.41804,teatro
-382,Centro de Artes José Pablo Moncayo,35,Huehuetoca,-99.21889,19.83381,teatro
-383,Teatro del Parque Interlomas,37,Huixquilucan,0.0,0.0,teatro
-384,Foro Cultural Tiempo y Espacio Thaay,51,Lerma,-99.51163,19.28555,teatro
-385,Teatro Municipal 'Malinalxóchitl',52,Malinalco,-99.49668,18.94976,teatro
-386,Teatro Metepec,54,Metepec,-99.60486,19.26407,teatro
-387,Teatro Cuauhtémoc IMSS Naucalpan,57,Naucalpan de Juárez,-99.23062,19.47475,teatro
-388,Teatro Javier Barros Sierra,57,Naucalpan de Juárez,-99.24844,19.48564,teatro
-389,Teatro de la Ciudad Bicentenario,57,Naucalpan de Juárez,-99.23389,19.47754,teatro
-390,Foro Felipe Villanueva,57,Naucalpan de Juárez,-99.241,19.4946,teatro
-391,Soñario Teatro,58,Nezahualcóyotl,-99.02475,19.40748,teatro
-392,Teatro Centenario,60,Nicolás Romero,-99.31666,19.6231,teatro
-393,Teatro Juárez,64,El Oro,0.0,0.0,teatro
-394,Teatro Sor Juana Ines de la Cruz,76,San Mateo Atenco,-99.52782,19.26476,teatro
-395,Teatro Principal Abundio Gómez,90,Tenango del Valle,-99.59161,19.10403,teatro
-396,Teatro al Aire Libre El Caracol,94,Tepetlixpa,0.0,0.0,teatro
-397,Teatro al Aire Libre del Centro Regional de Cultura de Texcoco,99,Texcoco,-98.87975,19.51373,teatro
-398,Teatro al Aire Libre del Centro Cultural Mexiquense Bicentenario,99,Texcoco,-98.89666,19.45166,teatro
-399,Teatro Elisa Carrillo,99,Texcoco,-98.89705,19.45206,teatro
-400,Teatro Lupita,101,Tianguistenco,-99.4656,19.18659,teatro
-401,Foro al aire libre Algarabía,104,Tlalnepantla de Baz,-99.19458,19.53686,teatro
-402,Teatro Centenario,104,Tlalnepantla de Baz,-99.20428,19.53869,teatro
-403,Teatro Eugenia León,104,Tlalnepantla de Baz,-99.19303,19.53647,teatro
-404,Teatro Santa Cecilia,104,Tlalnepantla de Baz,-99.17425,19.55415,teatro
-405,"Foro teatral Alberto Antonio Salgado Barrientos, Facultad de Humanidades",106,Toluca,-99.67744,19.27968,teatro
-406,Teatro Morelos,106,Toluca,-99.65924,19.29207,teatro
-407,Teatro Sor Juana Inés de la Cruz,106,Toluca,-99.64693,19.28962,teatro
-408,Teatro Universitario Los Jaguares,106,Toluca,-99.65954,19.28588,teatro
-409,Teatro Universitario de Cámara Esvón Gamaliel,106,Toluca,0.0,0.0,teatro
-410,Cine Teatro Tonatiuh,107,Tonatico,-99.67091,18.80196,teatro
-411,Teatro San Benito Abad,121,Cuautitlán Izcalli,-99.2398,19.6356,teatro
-412,Huamango,1,Acambay de Ruíz Castañeda,-99.86596,19.97916,zona arqueologica
-413,Chimalhuacán,31,Chimalhuacán,-98.94708,19.41816,zona arqueologica
-414,Acozac Ixtapaluca,39,Ixtapaluca,-98.88417,19.3131,zona arqueologica
-415,Tlapacoya,39,Ixtapaluca,-98.91287,19.30182,zona arqueologica
-416,Malinalco,52,Malinalco,-99.50294,18.95321,zona arqueologica
-417,El Conde,57,Naucalpan de Juárez,-99.23102,19.47055,zona arqueologica
-418,Ocoyoacac,62,Ocoyoacac,-99.47189,19.28254,zona arqueologica
-419,Los Reyes La Paz,70,La Paz,-98.98357,19.3525,zona arqueologica
-420,San Miguel Ixtapan,82,Tejupilco,-100.15489,18.80661,zona arqueologica
-421,Teotenango,90,Tenango del Valle,-99.59764,19.10845,zona arqueologica
-422,Teotihuacán,92,Teotihuacán,-98.84599,19.69314,zona arqueologica
-423,Tetzcotzinco,99,Texcoco,-98.81791,19.49701,zona arqueologica
-424,Tocuila (cerrado temporalmente),99,Texcoco,-98.90794,19.52047,zona arqueologica
-425,Huexotla,99,Texcoco,-98.87187,19.47723,zona arqueologica
-426,Los Melones,99,Texcoco,-98.88135,19.50878,zona arqueologica
-427,Tenayuca II,104,Tlalnepantla de Baz,-99.16933,19.53504,zona arqueologica
-428,Tenayuca,104,Tlalnepantla de Baz,-99.16848,19.53213,zona arqueologica
-429,Santa Cecilia Acatitlán,104,Tlalnepantla de Baz,-99.17345,19.55266,zona arqueologica
-430,Calixtlahuaca,106,Toluca,-99.69299,19.33374,zona arqueologica
+1,Biblioteca del Centro de Maestros de Chiautla de Tapia,28,Chiautla,-98.88279,19.54944,Biblioteca
+2,Biblioteca Cristina Payán,33,Ecatepec de Morelos,-99.03569,19.6003,Biblioteca
+3,"Biblioteca del Centro de Enseñanza, Inv. y Ext. en Producción Porcina",45,Jilotepec,-99.5104,19.95739,Biblioteca
+4,Biblioteca campus Lomas Verdes,57,Naucalpan de Juárez,-99.26304,19.5071,Biblioteca
+5,"Biblioteca de la Escuela Superior de Ingeniería y Arquitectura (ESIA), Unidad Tecamachalco",57,Naucalpan de Juárez,-99.22955,19.43019,Biblioteca
+6,Centro de Información y Documentación de la FES Acatlán,57,Naucalpan de Juárez,-99.24619,19.48367,Biblioteca
+7,Biblioteca de la Universidad Tecnológica de Nezahualcoyotl,58,Nezahualcóyotl,-98.98802,19.40425,Biblioteca
+8,Biblioteca Jesús Reyes Heroles de la FES Aragón,58,Nezahualcóyotl,-99.04538,19.47532,Biblioteca
+9,Centro de Información y Documentación de Nezahualcóyotl,58,Nezahualcóyotl,-99.01064,19.40419,Biblioteca
+10,Biblioteca de la Universidad Intercultural del Estado de México,74,San Felipe del Progreso,-99.94008,19.7146,Biblioteca
+11,Biblioteca de la Universidad Politécnica de Tecámac,81,Tecámac,-98.97753,19.71413,Biblioteca
+12,Biblioteca del Centro de Estudios Teotihuacanos,92,Teotihuacán,-98.83389,19.69106,Biblioteca
+13,Biblioteca Pablo Ignacio Martínez del Río,95,Tepotzotlán,-99.22138,19.71296,Biblioteca
+14,Biblioteca de la Universidad Politécnica de Texcoco,99,Texcoco,-98.89945,19.45067,Biblioteca
+15,Unidad de Documentación Científica de la FES Iztacala,104,Tlalnepantla de Baz,-99.18951,19.52445,Biblioteca
+16,Biblioteca del Museo Leopoldo Flores,106,Toluca,-99.67828,19.2865,Biblioteca
+17,Biblioteca de la Casa de la Cultura Jurídica José María Lozano,106,Toluca,-99.63951,19.28979,Biblioteca
+18,"Biblioteca Felipe Montemayor García, Centro INAH Estado de México",106,Toluca,-99.66009,19.29048,Biblioteca
+19,Biblioteca Lic. César Camacho Quiroz,106,Toluca,-99.67838,19.28136,Biblioteca
+20,Centro de Información y Documentación de la UPVM,109,Tultitlán,-99.127,19.64339,Biblioteca
+21,Biblioteca del Centro de Información Juan Francisco Ealy Ortiz,110,Valle de Bravo,-100.1319,19.23915,Biblioteca
+22,Biblioteca del Museo Virreinal,118,Zinacantepec,-99.73547,19.28343,Biblioteca
+23,"Biblioteca UVM, Campus Lago de Guadalupe",121,Cuautitlán Izcalli,-99.24095,19.63397,Biblioteca
+24,Biblioteca Campo 4,121,Cuautitlán Izcalli,-99.19102,19.69023,Biblioteca
+25,Biblioteca de la FES Cuautitlán Campo 1,121,Cuautitlán Izcalli,-99.20804,19.63667,Biblioteca
+26,Biblioteca del Tecnológico Universitario del Valle de Chalco,122,Valle de Chalco Solidaridad,-98.94594,19.27932,Biblioteca
+27,"Tienda de Artesanías CASART, San Martín de las Pirámides",0,Total de la entidad México,-98.83376,19.70504,Casa de artesania
+28,Casa de Artesanías de Acambay,1,Acambay de Ruíz Castañeda,0.0,0.0,Casa de artesania
+29,Artesanías Nezahualcóyotl,58,Nezahualcóyotl,-99.00126,19.411,Casa de artesania
+30,"Tienda de Artesanías CASART, Otumba",65,Otumba,-98.7575,19.69985,Casa de artesania
+31,"Tienda de Artesanías CASART, Tenancingo",88,Tenancingo,-99.5851,18.96391,Casa de artesania
+32,"Tienda de Artesanías CASART Texcoco, Casa del Constituyente",99,Texcoco,-98.88052,19.51375,Casa de artesania
+33,"Tienda de Artesanías CASART, Texcoco (Centro Cultural Mexiquense Bicentenario)",99,Texcoco,-98.89807,19.45341,Casa de artesania
+34,"Tienda de Artesanías CASART, Parque de la Ciencia Fundadores",106,Toluca,-99.65517,19.29397,Casa de artesania
+35,Tienda de Artesanías CASART Aeropuerto Internacional de Toluca,106,Toluca,-99.57096,19.33856,Casa de artesania
+36,"Tienda de Artesanías CASART, Chalco",106,Toluca,-98.8996,19.26339,Casa de artesania
+37,"Tienda de Artesanías CASART, Toluca",106,Toluca,-99.63782,19.28541,Casa de artesania
+38,"Tienda de Artesanías CASART, Museo Torres Bicentenario",106,Toluca,-99.62911,19.28778,Casa de artesania
+39,Casa de Artesanías de Valle de Bravo,110,Valle de Bravo,0.0,0.0,Casa de artesania
+40,San Francisco de Asis,14,Atlacomulco,-99.8705,19.8012,Catedral
+41,San Buenaventura,24,Cuautitlán,-99.17939,19.66907,Catedral
+42,Sagrado Corazón de Jesús,33,Ecatepec de Morelos,-99.04665,19.59951,Catedral
+43,Jesús Señor de la Misericordia,58,Nezahualcóyotl,-99.00063,19.40929,Catedral
+44,Corpus Cristi,104,Tlalnepantla de Baz,-99.19483,19.5379,Catedral
+45,San José,106,Toluca,-99.65725,19.29182,Catedral
+46,Centro Regional de Cultura de Acambay Dr. Maximiliano Ruiz Castañeda,1,Acambay de Ruíz Castañeda,-99.84527,19.95399,Centro cultural
+47,Casa de Cultura Aculmaitl,2,Acolman,-98.91201,19.63406,Centro cultural
+48,Casa de Cultura Aculco,3,Aculco,-99.8274,20.09893,Centro cultural
+49,Casa de Cultura Lic. César Camacho Quiroz,4,Almoloya de Alquisiras,0.0,0.0,Centro cultural
+50,Casa de Cultura Ignacio Manuel Altamirano,6,Almoloya del Río,-99.48889,19.15949,Centro cultural
+51,Casa de Cultura Ricardo García Álvarez,7,Amanalco,0.0,0.0,Centro cultural
+52,Casa de Cultura Municipal Profr. Enrique Gómez García,8,Amatepec,-100.18722,18.68456,Centro cultural
+53,Casa del Pueblo Amecameca,9,Amecameca,-98.77535,19.13204,Centro cultural
+54,Centro Regional de Cultura de Apaxco,10,Apaxco,-99.1746,19.97633,Centro cultural
+55,Centro Cultural Atenco José Enrique Espinoza Suárez,11,Atenco,-98.91674,19.55239,Centro cultural
+56,Casa de la Cultura Agua Blanca,12,Atizapán,0.0,0.0,Centro cultural
+57,Centro Regional de Cultura Atizapán de Zaragoza Lic. Adolfo López Mateos,13,Atizapán de Zaragoza,-99.23553,19.57263,Centro cultural
+58,Centro Cultural La Cuadra de Luis Barragán,13,Atizapán de Zaragoza,-99.22586,19.57548,Centro cultural
+59,Centro Cultural Calacoaya,13,Atizapán de Zaragoza,-99.235,19.54317,Centro cultural
+60,Centro Regional de Cultura de Atlacomulco Lic. Isidro Fabela,14,Atlacomulco,-99.87377,19.79849,Centro cultural
+61,Casa de Cultura Atlauhpanecatl,15,Atlautla,0.0,0.0,Centro cultural
+62,Casa de Cultura Toltecapan,16,Axapusco,0.0,0.0,Centro cultural
+63,Casa Cultura Aquiauhtzin,17,Ayapango,-98.80132,19.12639,Centro cultural
+64,Casa de Cultura de Calimaya,18,Calimaya,-99.61861,19.16323,Centro cultural
+65,Casa de Cultura Leona Vicario,19,Capulhuac,0.0,0.0,Centro cultural
+66,Casa de Cultura Calmecac,20,Coacalco de Berriozábal,0.0,0.0,Centro cultural
+67,Centro Cultural Baálamk'aan House Theater,20,Coacalco de Berriozábal,-99.10657,19.63405,Centro cultural
+68,Casa de la Cultura Coatepec Harinas,21,Coatepec Harinas,0.0,0.0,Centro cultural
+69,Casa de Cultura Cocotli,22,Cocotitlán,-98.86565,19.23612,Centro cultural
+70,Casa de Cultura Nezahualcóyotl,23,Coyotepec,0.0,0.0,Centro cultural
+71,Casa de la Cultura Luis Nishizawa Flores,24,Cuautitlán,-99.1812,19.6683,Centro cultural
+72,Centro Regional de Cultura de Chalco Chimalpahín,25,Chalco,-98.89978,19.26402,Centro cultural
+73,Casa de Cultura Lic. Julián Díaz Arias,27,Chapultepec,0.0,0.0,Centro cultural
+74,Casa de Cultura Chiautla,28,Chiautla,0.0,0.0,Centro cultural
+75,Casa de la Cultura Chicoloapan,29,Chicoloapan,0.0,0.0,Centro cultural
+76,Casa de Cultura Chiconcuac,30,Chiconcuac,0.0,0.0,Centro cultural
+77,Casa de Cultura Chimalhuacán,31,Chimalhuacán,-98.9456,19.41813,Centro cultural
+78,Casa de Cultura Lic. Adolfo López Mateos,32,Donato Guerra,-100.14325,19.30842,Centro cultural
+79,Centro Cultural del ISSSTE de Ecatepec,33,Ecatepec de Morelos,-99.05169,19.56528,Centro cultural
+80,Centro Regional de Cultura de Ecatepec José María Morelos y Pavón,33,Ecatepec de Morelos,-99.04759,19.59958,Centro cultural
+81,Centro Cultural y Recreativo de Ecatepec,33,Ecatepec de Morelos,-99.04497,19.51207,Centro cultural
+82,Casa de Cultura Pedro Patiño Ixtolique,34,Ecatzingo,0.0,0.0,Centro cultural
+83,Centro Socio Cultural El Dorado,35,Huehuetoca,-99.2032,19.88451,Centro cultural
+84,Centro Socio Cultural Josefa Ortiz de Domínguez,35,Huehuetoca,-99.18415,19.82162,Centro cultural
+85,Centro Socio Cultural de Artes José Pablo Moncayo,35,Huehuetoca,-99.21887,19.83369,Centro cultural
+86,Casa de Cultura Fernando de Alba Ixtlilxóchitl,36,Hueypoxtla,-99.07832,19.90782,Centro cultural
+87,Casa de Cultura El Jagüey,37,Huixquilucan,-99.3046,19.38479,Centro cultural
+88,Casa de Cultura Sor Juana Inés de la Cruz,37,Huixquilucan,-99.34092,19.35765,Centro cultural
+89,Casa de Cultura Isidro Fabela,38,Isidro Fabela,-99.41833,19.55554,Centro cultural
+90,Casa de la Cultura Ixtapaluca,39,Ixtapaluca,-98.88401,19.31482,Centro cultural
+91,Casa de Cultura Químico José Donaciano Morales y Mier Altamirano,42,Ixtlahuaca,-99.76784,19.56908,Centro cultural
+92,Casa de Cultura Químico José Donaciano Morales y Mier Altamirano,42,Ixtlahuaca,-99.76917,19.56981,Centro cultural
+93,Casa de Cultura Sor Juana Inés de la Cruz,43,Xalatlaco,0.0,0.0,Centro cultural
+94,Casa de Cultura El Capulín,44,Jaltenco,0.0,0.0,Centro cultural
+95,Casa de Cultura Mtra. Amalia Márquez Padilla,45,Jilotepec,0.0,0.0,Centro cultural
+96,Casa de Cultura Sor Juana Inés de la Cruz,47,Jiquipilco,0.0,0.0,Centro cultural
+97,Casa de Cultura Lic. Diego de Nájera Yanguas,48,Jocotitlán,-99.7862,19.71051,Centro cultural
+98,Casa de Cultura Ángel Zamora Espinosa,50,Juchitepec,-98.88124,19.0988,Centro cultural
+99,Casa de Cultura Profr. Adrián Ortega Monroy,51,Lerma,-99.515,19.28684,Centro cultural
+100,Casa de Cultura Malinalxóchitl,52,Malinalco,0.0,0.0,Centro cultural
+101,Casa de Cultura Maximiano Sánchez y Pérez,53,Melchor Ocampo,-99.1468,19.69868,Centro cultural
+102,Casa de Cultura de Metepec,54,Metepec,0.0,0.0,Centro cultural
+103,Casa Tunastral,54,Metepec,-99.59714,19.25286,Centro cultural
+104,Casa de Cultura de Mexicaltzingo,55,Mexicaltzingo,-99.58863,19.20814,Centro cultural
+105,Casa de Cultura Hemeterio Valverde y Téllez,56,Morelos,0.0,0.0,Centro cultural
+106,Centro Cultural Acatlán,57,Naucalpan de Juárez,-99.24827,19.48537,Centro cultural
+107,Casa de Cultura Parque Naucalli,57,Naucalpan de Juárez,-99.24208,19.49157,Centro cultural
+108,Casa de Cultura Chamapa,57,Naucalpan de Juárez,0.0,0.0,Centro cultural
+109,Centro Cultural Ágora,57,Naucalpan de Juárez,0.0,0.0,Centro cultural
+110,Casa de Cultura Valle de Aragón,58,Nezahualcóyotl,-99.05247,19.48834,Centro cultural
+111,Casa de Cultura Metropolitana Maestro Roberto Ruiz,58,Nezahualcóyotl,-99.03452,19.39602,Centro cultural
+112,Centro Cultural Municipal Dr. Jaime Torres Bodet,58,Nezahualcóyotl,-99.01051,19.40482,Centro cultural
+113,Centro Cultural El Castillito,58,Nezahualcóyotl,-99.00787,19.40412,Centro cultural
+114,Casa de la Cultura Ciudad Lago Epitacio Álvarez de León,58,Nezahualcóyotl,-99.04766,19.45474,Centro cultural
+115,Casa de Cultura Bosques de Aragón Mauricio García Vega,58,Nezahualcóyotl,-99.05104,19.47331,Centro cultural
+116,Casa Maha Foro Cultural,58,Nezahualcóyotl,0.0,0.0,Centro cultural
+117,Centro Cultural Casa Las 2 Fridas,58,Nezahualcóyotl,-98.99499,19.38692,Centro cultural
+118,Centro Cultural Nezahualcóyotl,58,Nezahualcóyotl,-99.03326,19.42127,Centro cultural
+119,Casa de Cultura Metropolitana,58,Nezahualcóyotl,-99.0343,19.39579,Centro cultural
+120,Casa de Cultura Ciudad Lago,58,Nezahualcóyotl,-99.0476,19.4548,Centro cultural
+121,Casa de Cultura Las Águilas,58,Nezahualcóyotl,-98.99771,19.38404,Centro cultural
+122,Casa de Cultura Campestre Guadalupana,58,Nezahualcóyotl,-99.05189,19.48568,Centro cultural
+123,Casa de Cultura Bosques de Aragón,58,Nezahualcóyotl,-99.05087,19.47316,Centro cultural
+124,Centro Cultural El Castillito,58,Nezahualcóyotl,-99.00965,19.40325,Centro cultural
+125,Centro Cultural Municipal Dr. Jaime Torres Bodet,58,Nezahualcóyotl,-99.01073,19.40408,Centro cultural
+126,Centro Cultural Aragón UNAM,58,Nezahualcóyotl,0.0,0.0,Centro cultural
+127,Centro Cultural del ISSSTE Nezahualcóyotl,58,Nezahualcóyotl,0.0,0.0,Centro cultural
+128,Centro Regional de Cultura de Nezahualcóyotl,58,Nezahualcóyotl,0.0,0.0,Centro cultural
+129,Módulo Cultural Multifuncional Nezahualcóyotl,58,Nezahualcóyotl,-99.01935,19.42315,Centro cultural
+130,Casa de Cultura Rey Neza,58,Nezahualcóyotl,-98.98338,19.39911,Centro cultural
+131,Centro Municipal de Artes Aplicadas,58,Nezahualcóyotl,-99.03012,19.43027,Centro cultural
+132,Casa de Cultura Campestre Guadalupana Lic. Prospero Domínguez Trejo,58,Nezahualcóyotl,-99.05162,19.48523,Centro cultural
+133,Casa de Cultura Valle de Aragón Pedro Martinez Osorio,58,Nezahualcóyotl,-99.05229,19.48887,Centro cultural
+134,Casa de Cultura Unidad Rey Neza Maestro Urbano Cruz Morales,58,Nezahualcóyotl,-98.98325,19.39922,Centro cultural
+135,Casa de Cultura Toltecalli,59,Nextlalpan,-99.07844,19.73367,Centro cultural
+136,Casa de Cultura Cualcalli,59,Nextlalpan,-99.05117,19.72375,Centro cultural
+137,Casa de Cultura Carlos Castillo Peraza,60,Nicolás Romero,0.0,0.0,Centro cultural
+138,Casa de Cultura Nicolás Romero La Colmena,60,Nicolás Romero,0.0,0.0,Centro cultural
+139,Centro Cultural Atelier de Arte 18,60,Nicolás Romero,-99.29341,19.60876,Centro cultural
+140,Casa de Cultura del Pueblo de Barrón,60,Nicolás Romero,0.0,0.0,Centro cultural
+141,Casa de Cultura María Elena Vásquez,61,Nopaltepec,-98.70955,19.77928,Centro cultural
+142,Centro Regional de Cultura de Ocoyoacac,62,Ocoyoacac,-99.46121,19.27249,Centro cultural
+143,Unidad Cultural de Ocuilán,63,Ocuilan,0.0,0.0,Centro cultural
+144,Casa de Cultura Abraham Ángel,64,El Oro,0.0,0.0,Centro cultural
+145,Casa Regional de Cultura y Casa Museo Gonzalo Carrasco,65,Otumba,0.0,0.0,Centro cultural
+146,Centro Regional de Cultura de Otumba,65,Otumba,-98.7575,19.69985,Centro cultural
+147,Casa de Cultura Hermanos Flores Magón,66,Otzoloapan,0.0,0.0,Centro cultural
+148,Casa de Cultura Ocelotl,67,Otzolotepec,0.0,0.0,Centro cultural
+149,Casa de Cultura José Antonio Arzate,68,Ozumba,0.0,0.0,Centro cultural
+150,Casa de Cultura Papalotla,69,Papalotla,-98.858,19.56389,Centro cultural
+151,Casa de Cultura Municipal de Papalotla,69,Papalotla,-98.85806,19.56338,Centro cultural
+152,Centro de Artes y Oficios Carmen Serdán Alatriste,70,La Paz,-98.97956,19.35378,Centro cultural
+153,Centro Comunitario Cultural Ciudad Retoño,70,La Paz,-98.98238,19.36871,Centro cultural
+154,Casa de Cultura La Paz,70,La Paz,0.0,0.0,Centro cultural
+155,Casa de Cultura Polotitlán,71,Polotitlán,0.0,0.0,Centro cultural
+156,Casa de Cultura Profr. José Copula Moreno,72,Rayón,0.0,0.0,Centro cultural
+157,Casa de Cultura Profr. Jesús Gómez Nava,74,San Felipe del Progreso,-99.95369,19.71369,Centro cultural
+158,Casa de Cultura Neteotiloyan,75,San Martín de las Pirámides,-98.82946,19.70744,Centro cultural
+159,Casa de Cultura Profra. Rosa Nava de López,76,San Mateo Atenco,0.0,0.0,Centro cultural
+160,Casa de Cultura San Mateo Atenco,76,San Mateo Atenco,-99.52751,19.26511,Centro cultural
+161,Casa de Cultura Cuitepec San Simón de Guerrero,77,San Simón de Guerrero,-100.00736,19.02315,Centro cultural
+162,Casa de Cultura Santiago Santa Ana,78,Santo Tomás,0.0,0.0,Centro cultural
+163,Casa de Cultura Soyaniquilpan de Juárez,79,Soyaniquilpan de Juárez,0.0,0.0,Centro cultural
+164,Casa de Cultura Dr. José María Coss,80,Sultepec,0.0,0.0,Centro cultural
+165,Casa de Cultura Felipe Villanueva,81,Tecámac,-98.97331,19.71272,Centro cultural
+166,Centro Regional de Cultura de Tejupilco,82,Tejupilco,-100.14739,18.89669,Centro cultural
+167,Casa de Cultura In Acatlixhuayan In Temamatzolli,83,Temamatla,-98.86988,19.2028,Centro cultural
+168,Casa de Cultura Temazcalli,84,Temascalapa,-98.86334,19.84281,Centro cultural
+169,Centro Regional de Cultura José María Velasco,85,Temascalcingo,0.0,0.0,Centro cultural
+170,Centro Regional de Cultura de Temascalcingo José Ma. Velasco,85,Temascalcingo,-100.00245,19.91736,Centro cultural
+171,Casa de Cultura 2 de Marzo,87,Temoaya,0.0,0.0,Centro cultural
+172,Centro Regional de Cultura de Tenancingo Joaquín Solache Monroy,88,Tenancingo,-99.58517,18.96393,Centro cultural
+173,Casa de Cultura Ollin Coatl,89,Tenango del Aire,0.0,0.0,Centro cultural
+174,Centro Cultural León Guzmán,90,Tenango del Valle,-99.59155,19.10412,Centro cultural
+175,Casa de Cultura Narciso Bassols,90,Tenango del Valle,-99.59409,19.09921,Centro cultural
+176,Casa de Cultura Teohuilloyocan,91,Teoloyucan,-99.18471,19.747,Centro cultural
+177,Casa de Cultura Ing. Heberto Castillo,92,Teotihuacán,-98.86698,19.68464,Centro cultural
+178,Casa de Cultura Rosario de la Peña,94,Tepetlixpa,-458.81871,19.02977,Centro cultural
+179,Centro Regional de Cultura Nepantla Sor Juana Inés de la Cruz,94,Tepetlixpa,-98.84112,18.97876,Centro cultural
+180,Casa de Cultura de Tepotzotlán,95,Tepotzotlán,-99.22396,19.71464,Centro cultural
+181,Casa de Cultura Tequixquiac,96,Tequixquiac,0.0,0.0,Centro cultural
+182,Centro de Desarrollo Social Integral,96,Tequixquiac,-99.14896,19.91036,Centro cultural
+183,Centro Municipal de Arte y Cultura de Texcalyacac,98,Texcalyacac,0.0,0.0,Centro cultural
+184,Centro Cultural del ISSSTE de Chapingo,99,Texcoco,0.0,0.0,Centro cultural
+185,Centro Regional de Cultura de Texcoco Casa del Constituyente,99,Texcoco,-98.87974,19.51379,Centro cultural
+186,Centro Cultural Mexiquense Bicentenario,99,Texcoco,-98.89953,19.45251,Centro cultural
+187,Casa de Cultura Tezoyuca Nahui Olin,100,Tezoyuca,-98.9063,19.59127,Centro cultural
+188,Casa de Cultura Profr. Carlos Hank González,101,Tianguistenco,-99.46745,19.18407,Centro cultural
+189,Módulo Cultural Multifuncional Santiago Tianguistenco,101,Tianguistenco,-99.51751,19.19658,Centro cultural
+190,Casa de Cultura Lic. Adolfo López Mateos,102,Timilpan,-99.73401,19.8752,Centro cultural
+191,Casa de Cultura Xochipilli,103,Tlalmanalco,-98.8033,19.20593,Centro cultural
+192,Centro de la Cultura y las Artes José Emilio Pacheco,104,Tlalnepantla de Baz,-99.19574,19.53649,Centro cultural
+193,Casa de Cultura Pedro Labrada Cervantes,104,Tlalnepantla de Baz,-99.08512,19.5316,Centro cultural
+194,Casa de Cultura Lázaro Cárdenas,104,Tlalnepantla de Baz,-99.11942,19.53437,Centro cultural
+195,Casa de Cultura José María Velasco,104,Tlalnepantla de Baz,-99.21174,19.5708,Centro cultural
+196,Casa de Cultura Luis Donaldo Colosio,104,Tlalnepantla de Baz,-99.18746,19.57206,Centro cultural
+197,Casa de Cultura Sor Juana Inés de la Cruz,104,Tlalnepantla de Baz,0.0,0.0,Centro cultural
+198,Casa de Cultura Lic. Javier Pérez Olegaray,104,Tlalnepantla de Baz,-99.18502,19.5524,Centro cultural
+199,Casa de Cultura El Arenal,104,Tlalnepantla de Baz,-99.16408,19.53008,Centro cultural
+200,Casa de Cultura José C. Ángeles,104,Tlalnepantla de Baz,-99.0887,19.51612,Centro cultural
+201,Casa de Cultura Lomas de San Andrés,104,Tlalnepantla de Baz,-99.22721,19.54295,Centro cultural
+202,Casa de Cultura San Felipe Ixtacala,104,Tlalnepantla de Baz,-99.17136,19.52161,Centro cultural
+203,Casa de Cultura Prado Vallejo,104,Tlalnepantla de Baz,-99.16581,19.50594,Centro cultural
+204,Casa de Cultura Guillermo Padilla Díaz de León,104,Tlalnepantla de Baz,-99.17366,19.55109,Centro cultural
+205,Centro Cultural Iztacala,104,Tlalnepantla de Baz,0.0,0.0,Centro cultural
+206,Casa de Cultura Izcalli Pirámide,104,Tlalnepantla de Baz,-99.17432,19.54222,Centro cultural
+207,Centro Cultural Rombo Negro,104,Tlalnepantla de Baz,-99.195,19.53852,Centro cultural
+208,Casa de Cultura Loma Bonita (Temporalmente cerrado),104,Tlalnepantla de Baz,-99.17836,19.55936,Centro cultural
+209,Casa de Cultura San Lucas Tepetlacalco (Temporalmente cerrado),104,Tlalnepantla de Baz,-99.22711,19.52434,Centro cultural
+210,Casa de Cultura Vista Hermosa,104,Tlalnepantla de Baz,-99.22293,19.51843,Centro cultural
+211,Centro Tolzú,106,Toluca,-99.65236,19.29028,Centro cultural
+212,Centro Toluqueño de Escritores,106,Toluca,-99.65605,19.29122,Centro cultural
+213,Centro Regional de Cultura de Toluca,106,Toluca,-99.65369,19.27205,Centro cultural
+214,Alianza Francesa de Toluca,106,Toluca,-99.65938,19.29162,Centro cultural
+215,Centro Cultural del ISSSTE de Toluca,106,Toluca,-99.67005,19.29045,Centro cultural
+216,Centro de Actividades Culturales (CEAC),106,Toluca,-99.65159,19.28634,Centro cultural
+217,Centro Cultural Universitario Casa de las Diligencias,106,Toluca,-99.65431,19.29183,Centro cultural
+218,Casa de Cultura de Cacalomacán,106,Toluca,-99.7081,19.25369,Centro cultural
+219,Centro Cultural Mexiquense,106,Toluca,-99.70252,19.27197,Centro cultural
+220,Centro Cultural Tonatiuh,107,Tonatico,-99.67076,18.80207,Centro cultural
+221,Casa de Cultura Reynalda Morales,107,Tonatico,-99.67083,18.80202,Centro cultural
+222,Casa de Cultura Víctor Manuel Urbán Velazco,108,Tultepec,0.0,0.0,Centro cultural
+223,Casa de Cultura Tultitlán,109,Tultitlán,-99.16456,19.64379,Centro cultural
+224,Centro Cultural Ágora Elena Poniatowska,109,Tultitlán,-99.09313,19.67412,Centro cultural
+225,Casa de Cultura y Biblioteca Real del Bosque,109,Tultitlán,-99.14063,19.61654,Centro cultural
+226,Centro Regional de Cultura Joaquín Arcadio Pagaza,110,Valle de Bravo,0.0,0.0,Centro cultural
+227,Casa de Cultura Attezi,111,Villa de Allende,0.0,0.0,Centro cultural
+228,Casa de la Cultura Dr. Jorge Jiménez Cantú,112,Villa del Carbón,0.0,0.0,Centro cultural
+229,Casa de Cultura Tecualoyan,113,Villa Guerrero,-99.64233,18.9621,Centro cultural
+230,Casa de Cultura Miguel Ángel Martínez,114,Villa Victoria,0.0,0.0,Centro cultural
+231,Casa del Pueblo,114,Villa Victoria,0.0,0.0,Centro cultural
+232,Casa de Cultura Xonacatlán,115,Xonacatlán,0.0,0.0,Centro cultural
+233,Casa de la Cultura Sor Juana Inés de la Cruz,116,Zacazonapan,-100.25554,19.07078,Centro cultural
+234,Casa de la Cultura Joaquín Velázquez Cárdenas y León,117,Zacualpan,-99.77493,18.72368,Centro cultural
+235,Casa de Cultura Matilde Zuñiga,118,Zinacantepec,0.0,0.0,Centro cultural
+236,Casa de la Cultura Wenceslao Labra,120,Zumpango,-99.10123,19.79969,Centro cultural
+237,Centro Regional de Cultura de Cuautitlán Izcalli,121,Cuautitlán Izcalli,-99.20536,19.6581,Centro cultural
+238,Casa de Cultura de Tononitla,125,Tonanitla,-99.05064,19.68721,Centro cultural
+239,Fonoteca del Sistema de Radio y Televisión Mexiquense,54,Metepec,0.0,0.0,Fonoteca
+240,Fototeca del Centro de Documentación e Investigación de la Comunidad Judío de México,57,Naucalpan de Juárez,-99.23821,19.42323,Fototeca
+241,Fototeca del Centro de Estudios Teotihuacanos,75,San Martín de las Pirámides,-98.86082,19.71209,Fototeca
+242,Fototeca del Museo Nacional del Virreinato,95,Tepotzotlán,-99.22166,19.71318,Fototeca
+243,Fototeca del Centro INAH Estado de México (CINAHEM),106,Toluca,-99.65831,19.28977,Fototeca
+244,Galería del Centro Regional de Cultura Atizapán de Zaragoza,13,Atizapán de Zaragoza,-99.23544,19.57215,Galeria
+245,Galeria de Arte del Genoma Mesoamericano,33,Ecatepec de Morelos,-99.05199,19.59686,Galeria
+246,"Galería de la Alianza Francesa, Suc. Interlomas",37,Huixquilucan,-99.26934,19.40277,Galeria
+247,Galería de Arte y Antiguedades Tarentum,37,Huixquilucan,-99.27008,19.40219,Galeria
+248,Recoleta Gouda Art Gallery,37,Huixquilucan,-99.27047,19.40121,Galeria
+249,Galería Bertozzi,37,Huixquilucan,-99.28156,19.40385,Galeria
+250,Sala de Exposición Xochipilli,39,Ixtapaluca,-98.88408,19.31729,Galeria
+251,Galería Leopoldo Flores,42,Ixtlahuaca,-99.75453,19.57291,Galeria
+252,Galería Andrés Molina,52,Malinalco,-99.50096,18.95215,Galeria
+253,"MONOMONO, Galería de Arte y Estudio",54,Metepec,-99.61049,19.25835,Galeria
+254,Galería Carlos & Albert Metepec,54,Metepec,-99.60572,19.26699,Galeria
+255,Galería de Arte,54,Metepec,-99.59137,19.2503,Galeria
+256,Sala de Arte Emma Rizo,57,Naucalpan de Juárez,-99.24713,19.48418,Galeria
+257,Sala de Arte Javier Barros Sierra,57,Naucalpan de Juárez,-99.24741,19.4844,Galeria
+258,Casa de Arte y Galería ÓLEO,57,Naucalpan de Juárez,-99.25021,19.51723,Galeria
+259,Galería Taquera,58,Nezahualcóyotl,-99.01594,19.40859,Galeria
+260,Galería José Luis Cuevas,104,Tlalnepantla de Baz,-99.19575,19.53642,Galeria
+261,"Galería de Arte del Tecnológico de Monterrey, campus Toluca",106,Toluca,-99.70635,19.27001,Galeria
+262,Galería Universitaria Fernando Cano,106,Toluca,-99.65365,19.28586,Galeria
+263,Galería de arte de la plaza González Arratia,106,Toluca,-99.65783,19.291,Galeria
+264,Tollocan Galería,106,Toluca,-99.67332,19.28035,Galeria
+265,Galería Cafetería,106,Toluca,-99.7032,19.27163,Galeria
+266,Galería Arte AIT,106,Toluca,-99.56874,19.33411,Galeria
+267,Galeria Tatiana H. Rajkov,110,Valle de Bravo,-100.12381,19.1637,Galeria
+268,Victoria Gallery,110,Valle de Bravo,-100.13017,19.18957,Galeria
+269,Galería Venado Azul,110,Valle de Bravo,-100.12874,19.1898,Galeria
+270,Arthouse Gallery,110,Valle de Bravo,-100.12841,19.18825,Galeria
+271,Museo Regional de Acambay Antonio Ruiz Pérez,1,Acambay de Ruíz Castañeda,-99.84583,19.95528,Museo
+272,Museo Virreinal de Acolman,2,Acolman,-98.91309,19.63218,Museo
+273,Museo Prehistórico de Tepexpan,2,Acolman,-98.9474,19.61377,Museo
+274,Museo de Sor Juana Inés de la Cruz,9,Amecameca,-98.77167,19.14163,Museo
+275,Museo Internacional de los Volcanes,9,Amecameca,-98.7726,19.14051,Museo
+276,Museo de Historia Natural de Casa del Pueblo Amecameca,9,Amecameca,-98.77551,19.13211,Museo
+277,Museo Arqueológico Apaxco,10,Apaxco,-99.17455,19.97585,Museo
+278,Museo Adolfo López Mateos,13,Atizapán de Zaragoza,-99.24807,19.56311,Museo
+279,Museo Isidro Fabela,14,Atlacomulco,-99.87367,19.79841,Museo
+280,Museo Histórico de Atlacomulco,14,Atlacomulco,-99.8805,19.79843,Museo
+281,Museo Paleontológico Comunitario de la Magdalena Huizachitla,20,Coacalco de Berriozábal,-99.08886,19.63482,Museo
+282,"Santuario de la Siempre Virgen María de Guadalupe, Casa de San Juan Diego",24,Cuautitlán,-99.19189,19.66826,Museo
+283,Casa Museo de Cartonería,25,Chalco,-98.93202,19.21113,Museo
+284,Museo del Centro Regional de Cultura de Chalco Chimalpahin,25,Chalco,-98.89952,19.26293,Museo
+285,Museo Comunitario del Pueblo de Tezompa,25,Chalco,-98.96121,19.20671,Museo
+286,Planetario Digital de Chimalhuacán,31,Chimalhuacán,-98.96232,19.40758,Museo
+287,Museo de Sitio de Chimalhuacán,31,Chimalhuacán,-98.94726,19.41786,Museo
+288,Museo Municipal Canto del Cincel,31,Chimalhuacán,-98.98388,19.41924,Museo
+289,Museo Chimaltonalli,31,Chimalhuacán,-98.94407,19.41945,Museo
+290,"Planetario El Gran Ehécatl, Los Hijos del Dios del Viento",33,Ecatepec de Morelos,-99.0541,19.59557,Museo
+291,Museo de la Pluma. Ing. Jesús Humberto Rodríguez Lozano,33,Ecatepec de Morelos,-99.04056,19.51069,Museo
+292,"Centro Comunitario Ecatepec, Casa de Morelos",33,Ecatepec de Morelos,-99.03565,19.60036,Museo
+293,Museo de Sitio de Vestigios Arqueológicos del Parque Ecológico Ehécatl,33,Ecatepec de Morelos,-99.0541,19.59557,Museo
+294,Museo Jurasica,33,Ecatepec de Morelos,-99.05542,19.59379,Museo
+295,Museo de Historia Natural de Ecatepec,33,Ecatepec de Morelos,-99.03683,19.54688,Museo
+296,Parque Museo del Ferrocarril de Huehuetoca,35,Huehuetoca,-99.2027,19.83545,Museo
+297,Museo de Huixquilucan,37,Huixquilucan,-99.34124,19.35803,Museo
+298,Museo Tlotzin Pochotl,39,Ixtapaluca,-98.8844,19.31492,Museo
+299,Museo de Sitio de Coatepec,39,Ixtapaluca,-98.84732,19.38531,Museo
+300,Museo Comunitario Xochiltepetl,50,Juchitepec,-98.88117,19.09858,Museo
+301,"Zanbatha, Museo del Valle de la Luna",51,Lerma,-99.51022,19.28657,Museo
+302,Museo Universitario Dr. Luis Mario Schneider,52,Malinalco,-99.50115,18.95084,Museo
+303,Sala Introductoria a la Zona Arqueológica de Malinalco,52,Malinalco,-99.5034,18.95347,Museo
+304,Museo del Barro,54,Metepec,-99.60202,19.25019,Museo
+305,Museo del Agua,57,Naucalpan de Juárez,-99.23986,19.45956,Museo
+306,Museo Salón Deporte,57,Naucalpan de Juárez,-99.215,19.45754,Museo
+307,Museo Tlatilca,57,Naucalpan de Juárez,-99.23203,19.47914,Museo
+308,Museo Nezahualcóyotl Acomiztli,58,Nezahualcóyotl,-99.03341,19.421,Museo
+309,Museo Arqueológico de Nextlalpan (en proceso de remodelación),59,Nextlalpan,-99.05104,19.72379,Museo
+310,Museo Textil Industrial de San Ildefonso,60,Nicolás Romero,-99.2956,19.61981,Museo
+311,Museo Dr. José María Luis Mora,62,Ocoyoacac,-99.4609,19.27427,Museo
+312,Museo Arqueológico Colonial de Ocuilan,63,Ocuilan,-99.41604,18.97935,Museo
+313,Museo de la Minería de El Oro,64,El Oro,-100.13284,19.79848,Museo
+314,Museo del Ferrocarril en Otumba,65,Otumba,-98.75696,19.70877,Museo
+315,Ex Convento de Oxtotipac,65,Otumba,-98.7927,19.6558,Museo
+316,Casa Museo Gonzalo Carrasco,65,Otumba,-98.75742,19.69981,Museo
+317,Museo Municipal Techialoyan Tepemaxalco,73,San Antonio la Isla,-99.56917,19.1641,Museo
+318,Museo de Murales Teotihuacanos Beatriz de la Fuente,75,San Martín de las Pirámides,-98.8471,19.70039,Museo
+319,Sala museográfica de la Casa de Cultura Dr. José María Cos,80,Sultepec,-99.96689,18.85786,Museo
+320,Museo de Sitio de San Miguel Ixtapan,82,Tejupilco,-100.15498,18.807,Museo
+321,Museo Casa de Madera,89,Tenango del Aire,-98.85558,19.15722,Museo
+322,Museo Arqueológico Dr. Román Piña Chan,90,Tenango del Valle,-99.59598,19.11048,Museo
+323,Museo Comunitario Quetzalpapalotl,92,Teotihuacán,-98.86924,19.68346,Museo
+324,Museo de la Cultura Teotihuacana (museo de sitio),92,Teotihuacán,-98.84957,19.68292,Museo
+325,Museo Eremitorio de Fray Domingo de Betanzos,93,Tepetlaoxtoc,-98.82467,19.57314,Museo
+326,Museo-Casa Juana Inés,94,Tepetlixpa,-98.83972,18.98005,Museo
+327,Museo Nacional del Virreinato,95,Tepotzotlán,-99.22151,19.71338,Museo
+328,Museo del Centro Cultural Mexiquense Bicentenario,99,Texcoco,-98.89648,19.45188,Museo
+329,Museo de sitio del Parque Ecológico Lago de Texcoco,99,Texcoco,-98.97872,19.48504,Museo
+330,Museo del Deporte del Estado de México,99,Texcoco,-98.89817,19.45256,Museo
+331,Museo de Biología,99,Texcoco,-98.88874,19.48945,Museo
+332,Museo Regional del Pulque y el Maguey Texcoco,99,Texcoco,-98.88293,19.50666,Museo
+333,Museo de Geología Dr. José Guadalupe Aguilera Serrano,99,Texcoco,-98.88653,19.49438,Museo
+334,Museo Nacional de Agricultura,99,Texcoco,-98.88896,19.4921,Museo
+335,Museo Paleontológico de Tocuila,99,Texcoco,-98.90793,19.52065,Museo
+336,Museo Comunitario Nonohualca,103,Tlalmanalco,-98.80248,19.20597,Museo
+337,Museo Xólotl. San Bartolo Tenayuca,104,Tlalnepantla de Baz,-99.16787,19.53239,Museo
+338,Museo de la Escultura Mexica Eusebio Dávalos Hurtado,104,Tlalnepantla de Baz,-99.17378,19.55243,Museo
+339,Museo Hacienda de Santa Mónica,104,Tlalnepantla de Baz,-99.23149,19.52884,Museo
+340,Museo del Heroico Cuerpo de Bomberos Toluca,106,Toluca,-99.63727,19.28726,Museo
+341,Museo de Ciencias Naturales Edomex.,106,Toluca,-99.66083,19.28318,Museo
+342,Museo de la Acuarela del Estado de México,106,Toluca,-99.6611,19.28967,Museo
+343,Museo del Alfeñique,106,Toluca,-99.64988,19.29204,Museo
+344,Pinacoteca Los Autonomistas,106,Toluca,-99.65364,19.28574,Museo
+345,Casa Museo Toluca 1920,106,Toluca,-99.66039,19.29032,Museo
+346,Museo Auditorio PetStar,106,Toluca,-99.71852,19.42012,Museo
+347,Museo del Paisaje José María Velasco,106,Toluca,-99.6579,19.29302,Museo
+348,"Museo Gabinetes de Física, Química y Medicina",106,Toluca,-99.66035,19.2735,Museo
+349,Museo de la Inquisición procesos y torturas,106,Toluca,-99.65438,19.29397,Museo
+350,Museo del Instituto Pedro Nolasco,106,Toluca,-99.66103,19.28796,Museo
+351,Museo de Historia Universitaria José María Morelos y Pavón,106,Toluca,-99.65364,19.28578,Museo
+352,Museo Universitario Leopoldo Flores,106,Toluca,-99.67826,19.28648,Museo
+353,Planetario Parque de la Ciencia Fundadores,106,Toluca,-99.65523,19.29427,Museo
+354,Museo Universitario de Historia Natural Manuel M. Villada,106,Toluca,-99.65378,19.28575,Museo
+355,Museo Galería de Arte Mexiquense Torres Bicentenario,106,Toluca,-99.62933,19.28752,Museo
+356,Museo de Numismática del Estado de México,106,Toluca,-99.70265,19.273,Museo
+357,Museo Salón de la Fama del Deportivo Toluca,106,Toluca,-99.66584,19.28764,Museo
+358,Museo de la Estampa del Estado de México,106,Toluca,-99.6619,19.28912,Museo
+359,Cosmovitral Jardín Botánico de Toluca,106,Toluca,-99.65371,19.29354,Museo
+360,Museo de Bellas Artes de Toluca,106,Toluca,-99.65622,19.29431,Museo
+361,Museo Felipe Santiago Gutiérrez,106,Toluca,-99.65795,19.29326,Museo
+362,Museo Taller Nishizawa,106,Toluca,-99.65794,19.29354,Museo
+363,Museo Observatorio Meteorológico Mariano Bárcena,106,Toluca,-99.6534,19.2865,Museo
+364,Museo de Sitio de Calixtlahuaca,106,Toluca,-99.6945,19.3337,Museo
+365,Museo Hacienda La Pila,106,Toluca,-99.70169,19.27255,Museo
+366,Museo de Antropología e Historia,106,Toluca,-99.70165,19.27395,Museo
+367,Museo de Arte Moderno del Estado de México,106,Toluca,-99.70327,19.27189,Museo
+368,Museo Nacional de la Pirotecnia (Munapi),108,Tultepec,-99.12833,19.68555,Museo
+369,Museo Comunitario de Tultitlán,109,Tultitlán,0.0,0.0,Museo
+370,Museo Arqueológico de Valle de Bravo,110,Valle de Bravo,-100.13002,19.1871,Museo
+371,Museo Joaquín Arcadio Pagaza,110,Valle de Bravo,-100.13027,19.1924,Museo
+372,Museo Virreinal de Zinacantepec,118,Zinacantepec,-99.73562,19.28299,Museo
+373,Museo Paleontológico de Santa Lucía Quinametzin,120,Zumpango,-98.98718,19.73797,Museo
+374,Museo Militar de Aviación Tte. P.A. José Espinosa Fuentes,120,Zumpango,-98.98063,19.74908,Museo
+375,Museo de la Brigada de Fusileros Paracaidistas,120,Zumpango,-98.98367,19.72991,Museo
+376,Museo Comunitario del Valle de Xico,122,Valle de Chalco Solidaridad,-98.93559,19.27411,Museo
+377,Acueducto del Padre Tembleque,65,Otumba,-98.66236,19.83606,Patrimonio de la Humanidad
+378,Ciudad Prehispánica de Teotihuacán,92,Teotihuacán,-98.84584,19.69383,Patrimonio de la Humanidad
+379,"Foro La Esperanza, Casa del Pueblo",9,Amecameca,-98.77551,19.13211,Teatro
+380,Teatro del Pueblo,14,Atlacomulco,-99.87327,19.79862,Teatro
+381,Teatro Auditorio Humberto Vidal Mendoza,31,Chimalhuacán,-98.98445,19.41804,Teatro
+382,Centro de Artes José Pablo Moncayo,35,Huehuetoca,-99.21889,19.83381,Teatro
+383,Teatro del Parque Interlomas,37,Huixquilucan,0.0,0.0,Teatro
+384,Foro Cultural Tiempo y Espacio Thaay,51,Lerma,-99.51163,19.28555,Teatro
+385,Teatro Municipal 'Malinalxóchitl',52,Malinalco,-99.49668,18.94976,Teatro
+386,Teatro Metepec,54,Metepec,-99.60486,19.26407,Teatro
+387,Teatro Cuauhtémoc IMSS Naucalpan,57,Naucalpan de Juárez,-99.23062,19.47475,Teatro
+388,Teatro Javier Barros Sierra,57,Naucalpan de Juárez,-99.24844,19.48564,Teatro
+389,Teatro de la Ciudad Bicentenario,57,Naucalpan de Juárez,-99.23389,19.47754,Teatro
+390,Foro Felipe Villanueva,57,Naucalpan de Juárez,-99.241,19.4946,Teatro
+391,Soñario Teatro,58,Nezahualcóyotl,-99.02475,19.40748,Teatro
+392,Teatro Centenario,60,Nicolás Romero,-99.31666,19.6231,Teatro
+393,Teatro Juárez,64,El Oro,0.0,0.0,Teatro
+394,Teatro Sor Juana Ines de la Cruz,76,San Mateo Atenco,-99.52782,19.26476,Teatro
+395,Teatro Principal Abundio Gómez,90,Tenango del Valle,-99.59161,19.10403,Teatro
+396,Teatro al Aire Libre El Caracol,94,Tepetlixpa,0.0,0.0,Teatro
+397,Teatro al Aire Libre del Centro Regional de Cultura de Texcoco,99,Texcoco,-98.87975,19.51373,Teatro
+398,Teatro al Aire Libre del Centro Cultural Mexiquense Bicentenario,99,Texcoco,-98.89666,19.45166,Teatro
+399,Teatro Elisa Carrillo,99,Texcoco,-98.89705,19.45206,Teatro
+400,Teatro Lupita,101,Tianguistenco,-99.4656,19.18659,Teatro
+401,Foro al aire libre Algarabía,104,Tlalnepantla de Baz,-99.19458,19.53686,Teatro
+402,Teatro Centenario,104,Tlalnepantla de Baz,-99.20428,19.53869,Teatro
+403,Teatro Eugenia León,104,Tlalnepantla de Baz,-99.19303,19.53647,Teatro
+404,Teatro Santa Cecilia,104,Tlalnepantla de Baz,-99.17425,19.55415,Teatro
+405,"Foro teatral Alberto Antonio Salgado Barrientos, Facultad de Humanidades",106,Toluca,-99.67744,19.27968,Teatro
+406,Teatro Morelos,106,Toluca,-99.65924,19.29207,Teatro
+407,Teatro Sor Juana Inés de la Cruz,106,Toluca,-99.64693,19.28962,Teatro
+408,Teatro Universitario Los Jaguares,106,Toluca,-99.65954,19.28588,Teatro
+409,Teatro Universitario de Cámara Esvón Gamaliel,106,Toluca,0.0,0.0,Teatro
+410,Cine Teatro Tonatiuh,107,Tonatico,-99.67091,18.80196,Teatro
+411,Teatro San Benito Abad,121,Cuautitlán Izcalli,-99.2398,19.6356,Teatro
+412,Huamango,1,Acambay de Ruíz Castañeda,-99.86596,19.97916,Zona Arqueologica
+413,Chimalhuacán,31,Chimalhuacán,-98.94708,19.41816,Zona Arqueologica
+414,Acozac Ixtapaluca,39,Ixtapaluca,-98.88417,19.3131,Zona Arqueologica
+415,Tlapacoya,39,Ixtapaluca,-98.91287,19.30182,Zona Arqueologica
+416,Malinalco,52,Malinalco,-99.50294,18.95321,Zona Arqueologica
+417,El Conde,57,Naucalpan de Juárez,-99.23102,19.47055,Zona Arqueologica
+418,Ocoyoacac,62,Ocoyoacac,-99.47189,19.28254,Zona Arqueologica
+419,Los Reyes La Paz,70,La Paz,-98.98357,19.3525,Zona Arqueologica
+420,San Miguel Ixtapan,82,Tejupilco,-100.15489,18.80661,Zona Arqueologica
+421,Teotenango,90,Tenango del Valle,-99.59764,19.10845,Zona Arqueologica
+422,Teotihuacán,92,Teotihuacán,-98.84599,19.69314,Zona Arqueologica
+423,Tetzcotzinco,99,Texcoco,-98.81791,19.49701,Zona Arqueologica
+424,Tocuila (cerrado temporalmente),99,Texcoco,-98.90794,19.52047,Zona Arqueologica
+425,Huexotla,99,Texcoco,-98.87187,19.47723,Zona Arqueologica
+426,Los Melones,99,Texcoco,-98.88135,19.50878,Zona Arqueologica
+427,Tenayuca II,104,Tlalnepantla de Baz,-99.16933,19.53504,Zona Arqueologica
+428,Tenayuca,104,Tlalnepantla de Baz,-99.16848,19.53213,Zona Arqueologica
+429,Santa Cecilia Acatitlán,104,Tlalnepantla de Baz,-99.17345,19.55266,Zona Arqueologica
+430,Calixtlahuaca,106,Toluca,-99.69299,19.33374,Zona Arqueologica
