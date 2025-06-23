@@ -25,7 +25,6 @@ id,nombre,municipio_id,nombre_municipio,longitud,latitud,tipo,Hora_Apertura,Hora
 24,Biblioteca Campo 4,121,Cuautitlán Izcalli,-99.19102,19.69023,Biblioteca,9.0,18.0,1.5,1,1,1,1,1,1,0
 25,Biblioteca de la FES Cuautitlán Campo 1,121,Cuautitlán Izcalli,-99.20804,19.63667,Biblioteca,9.0,18.0,1.5,1,1,1,1,1,1,0
 26,Biblioteca del Tecnológico Universitario del Valle de Chalco,122,Valle de Chalco Solidaridad,-98.94594,19.27932,Biblioteca,9.0,18.0,1.5,1,1,1,1,1,1,0
-27,"Tienda de Artesanías CASART, San Martín de las Pirámides",0,Total de la entidad México,-98.83376,19.70504,Casa de artesania,10.0,20.0,1.0,0,1,1,1,1,1,1
 29,Artesanías Nezahualcóyotl,58,Nezahualcóyotl,-99.00126,19.411,Casa de artesania,10.0,20.0,1.0,0,1,1,1,1,1,1
 30,"Tienda de Artesanías CASART, Otumba",65,Otumba,-98.7575,19.69985,Casa de artesania,10.0,20.0,1.0,0,1,1,1,1,1,1
 31,"Tienda de Artesanías CASART, Tenancingo",88,Tenancingo,-99.5851,18.96391,Casa de artesania,10.0,20.0,1.0,0,1,1,1,1,1,1
@@ -42,7 +41,7 @@ id,nombre,municipio_id,nombre_municipio,longitud,latitud,tipo,Hora_Apertura,Hora
 43,Jesús Señor de la Misericordia,58,Nezahualcóyotl,-99.00063,19.40929,Catedral,8.0,20.0,1.0,1,1,1,1,1,1,1
 44,Corpus Cristi,104,Tlalnepantla de Baz,-99.19483,19.5379,Catedral,8.0,20.0,1.0,1,1,1,1,1,1,1
 45,San José,106,Toluca,-99.65725,19.29182,Catedral,8.0,20.0,1.0,1,1,1,1,1,1,1
-46,Centro Regional de Cultura de Acambay Dr. Maximiliano Ruiz Castañeda,1,Acambay de Ruíz Castañeda,-99.84527,19.95399,Centro cultural,10.0,22.0,2.0,0,1,1,1,1,1,1
+46,Centro Regional de Cultura de Acambay Dr. Maximiliano Ruiz Castañeda,1,Acambay de Ruiz Castañeda,-99.84527,19.95399,Centro cultural,10.0,22.0,2.0,0,1,1,1,1,1,1
 47,Casa de Cultura Aculmaitl,2,Acolman,-98.91201,19.63406,Centro cultural,10.0,22.0,2.0,0,1,1,1,1,1,1
 48,Casa de Cultura Aculco,3,Aculco,-99.8274,20.09893,Centro cultural,10.0,22.0,2.0,0,1,1,1,1,1,1
 50,Casa de Cultura Ignacio Manuel Altamirano,6,Almoloya del Río,-99.48889,19.15949,Centro cultural,10.0,22.0,2.0,0,1,1,1,1,1,1
@@ -207,7 +206,7 @@ id,nombre,municipio_id,nombre_municipio,longitud,latitud,tipo,Hora_Apertura,Hora
 268,Victoria Gallery,110,Valle de Bravo,-100.13017,19.18957,Galeria,11.0,19.0,1.0,0,0,1,1,1,1,1
 269,Galería Venado Azul,110,Valle de Bravo,-100.12874,19.1898,Galeria,11.0,19.0,1.0,0,0,1,1,1,1,1
 270,Arthouse Gallery,110,Valle de Bravo,-100.12841,19.18825,Galeria,11.0,19.0,1.0,0,0,1,1,1,1,1
-271,Museo Regional de Acambay Antonio Ruiz Pérez,1,Acambay de Ruíz Castañeda,-99.84583,19.95528,Museo,9.0,17.0,2.0,0,1,1,1,1,1,1
+271,Museo Regional de Acambay Antonio Ruiz Pérez,1,Acambay de Ruiz Castañeda,-99.84583,19.95528,Museo,9.0,17.0,2.0,0,1,1,1,1,1,1
 272,Museo Virreinal de Acolman,2,Acolman,-98.91309,19.63218,Museo,9.0,17.0,2.0,0,1,1,1,1,1,1
 273,Museo Prehistórico de Tepexpan,2,Acolman,-98.9474,19.61377,Museo,9.0,17.0,2.0,0,1,1,1,1,1,1
 274,Museo de Sor Juana Inés de la Cruz,9,Amecameca,-98.77167,19.14163,Museo,9.0,17.0,2.0,0,1,1,1,1,1,1
@@ -343,7 +342,7 @@ id,nombre,municipio_id,nombre_municipio,longitud,latitud,tipo,Hora_Apertura,Hora
 408,Teatro Universitario Los Jaguares,106,Toluca,-99.65954,19.28588,Teatro,16.0,23.0,2.5,0,0,0,1,1,1,1
 410,Cine Teatro Tonatiuh,107,Tonatico,-99.67091,18.80196,Teatro,16.0,23.0,2.5,0,0,0,1,1,1,1
 411,Teatro San Benito Abad,121,Cuautitlán Izcalli,-99.2398,19.6356,Teatro,16.0,23.0,2.5,0,0,0,1,1,1,1
-412,Huamango,1,Acambay de Ruíz Castañeda,-99.86596,19.97916,Zona Arqueologica,7.0,17.0,3.0,1,1,1,1,1,1,1
+412,Huamango,1,Acambay de Ruiz Castañeda,-99.86596,19.97916,Zona Arqueologica,7.0,17.0,3.0,1,1,1,1,1,1,1
 413,Chimalhuacán,31,Chimalhuacán,-98.94708,19.41816,Zona Arqueologica,7.0,17.0,3.0,1,1,1,1,1,1,1
 414,Acozac Ixtapaluca,39,Ixtapaluca,-98.88417,19.3131,Zona Arqueologica,7.0,17.0,3.0,1,1,1,1,1,1,1
 415,Tlapacoya,39,Ixtapaluca,-98.91287,19.30182,Zona Arqueologica,7.0,17.0,3.0,1,1,1,1,1,1,1

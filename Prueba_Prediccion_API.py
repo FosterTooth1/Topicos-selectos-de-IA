@@ -27,7 +27,6 @@ def cambiarFormatoViento(dir):
 # Solicitud a la API
 api_key = "7f25124e580c4de6a2e00312251205"
 location = "19.503943116188182, -99.14705946287188" # ESCOM
-#location = "19.50861304149894312179, -99.1624613783657807804"
 
 url = f"https://api.weatherapi.com/v1/current.json?key={api_key}&q={location}&aqi=no"
 response = requests.get(url)
