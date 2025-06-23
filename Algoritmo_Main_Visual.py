@@ -337,7 +337,7 @@ dias = ['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo']
 dia_semana = st.sidebar.selectbox("Día de la semana para visitar", dias, index=0)
 
 # Lambda penalización
-lambda_penalizacion = st.sidebar.slider("Lambda de penalización", 1.0, 10.0, 1.0, step=0.1)
+lambda_penalizacion = st.sidebar.slider("Lambda de penalización", 0.0, 10.0, 1.0, step=1.0)
 
 # Filtrar por tipo y día
 df_filtrado_tipo = eliminar_filas_tipos(df_lugares, tipos_seleccionados)
@@ -377,21 +377,32 @@ if st.sidebar.button("Calcular ruta óptima"):
     with st.spinner("Realizando predicciones climáticas..."):
         df_lugares_filtrado = realizar_predicciones(Modelo_RandomForest, df_lugares_filtrado, API_KEY)
     st.write("Predicciones añadidas.")
+    #penalizaciones = {
+    #    'Nublado': 1.1, 'Considerablemente nublado': 1.2, 'Despejado': 1.0,
+    #    'Niebla': 1.8, 'Bruma': 1.3, 'Lluvia intensa': 1.7,
+    #    'Tormenta electrica intensa': 1.9, 'Neblina': 1.6,
+    #    'Lluvia': 1.5, 'Truenos': 1.4
+    #}
+    # Aumentamos mas las penalizaciones para que afecten más a la distancia
     penalizaciones = {
-        'Nublado': 1.1, 'Considerablemente nublado': 1.2, 'Despejado': 1.0,
-        'Niebla': 1.8, 'Bruma': 1.3, 'Lluvia intensa': 1.7,
-        'Tormenta electrica intensa': 1.9, 'Neblina': 1.6,
-        'Lluvia': 1.5, 'Truenos': 1.4
+        'Nublado': 1.5, 'Considerablemente nublado': 2.0, 'Despejado': 1.0,
+        'Niebla': 9.0, 'Bruma': 3.0, 'Lluvia intensa': 8.0,
+        'Tormenta electrica intensa': 10.0, 'Neblina': 7.0,
+        'Lluvia': 6.0, 'Truenos': 5.0
     }
-    for _, fila in df_lugares_filtrado.iterrows():
-        id_lugar = int(fila['id'])
-        pred = fila['Prediccion']
-        if pred in penalizaciones:
-            penal = penalizaciones[pred] * lambda_penalizacion
-            mask = df_matriz.index != id_lugar
-            df_matriz.loc[id_lugar, mask] *= penal
-            df_matriz.loc[mask, id_lugar] *= penal
-            df_matriz.loc[id_lugar, id_lugar] = 0.0
+    if lambda_penalizacion > 0:
+        for _, fila in df_lugares_filtrado.iterrows():
+            id_lugar = int(fila['id'])
+            pred = fila['Prediccion']
+            if pred in penalizaciones:
+                penal = penalizaciones[pred] * lambda_penalizacion
+                mask = df_matriz.index != id_lugar
+                df_matriz.loc[id_lugar, mask] *= penal
+                df_matriz.loc[mask, id_lugar] *= penal
+                df_matriz.loc[id_lugar, id_lugar] = 0.0
+    else:
+        # Opcional: informar al usuario que no se aplican penalizaciones
+        st.info("Lambda es 0: no se aplican penalizaciones de clima sobre la matriz de distancias.")
     if nombre_municipio_inicio:
         df_muni = df_municipios[df_municipios['nombre_municipio'] == nombre_municipio_inicio]
         if df_muni.empty or pd.isnull(df_muni.iloc[0].get('latitud')) or pd.isnull(df_muni.iloc[0].get('longitud')):
@@ -414,6 +425,8 @@ if st.sidebar.button("Calcular ruta óptima"):
         id_lugar = row['id']
         lugar_info = df_lugares_filtrado[df_lugares_filtrado['id'] == id_lugar].iloc[0]
         nombre_lugar = lugar_info['nombre']
+        tipo_lugar = lugar_info['tipo']
+        prediccion = lugar_info['Prediccion']
         arrival_time = decimal_to_hhmm(row['arrival'])
         departure_time = decimal_to_hhmm(row['departure'])
         travel_distance = row['travel_distance_prev']
@@ -422,10 +435,12 @@ if st.sidebar.button("Calcular ruta óptima"):
         tabla.append({
             'Id': id_lugar,
             'Lugar': nombre_lugar,
+            'Tipo': tipo_lugar,
             'Llegada': arrival_time,
             'Salida': departure_time,
             'Distancia (km)': f"{travel_distance:.2f}",
-            'Tiempo viaje': travel_time_str
+            'Tiempo viaje': travel_time_str,
+            'Predicción clima': prediccion
         })
     df_result = pd.DataFrame(tabla)
     st.dataframe(df_result)
