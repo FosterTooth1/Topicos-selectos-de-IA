@@ -150,7 +150,7 @@ if __name__ == "__main__":
     # Parámetros de datos de entrenamiento y prueba:
     porc_entrenamiento = 0.8  
     porc_datos = 1.0 
-    modelo_path       = 'modelo_rf.pkl'
+    modelo_path       = 'random_forest_model.pkl'
 
     # Mezclar y recortar datos
     shuffle(datos)
