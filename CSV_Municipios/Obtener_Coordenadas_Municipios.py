@@ -13,7 +13,7 @@ df_municipios = (
     .reset_index(drop=True)
 )
 
-# Agregar ", Estado de México" (si todos son de ese estado)
+# Agregar ", Estado de México" 
 df_municipios['query_municipio'] = df_municipios['nombre_municipio'] + ', Estado de México'
 
 # Preparar headers para Nominatim
@@ -27,13 +27,10 @@ def obtener_coordenadas(municipio_query):
         'q': municipio_query,
         'format': 'json',
         'addressdetails': 1,
-        # opcional: puedes agregar 'limit': 1
     }
     try:
         response = requests.get(url, params=params, headers=headers, timeout=10)
     except requests.exceptions.RequestException as e:
-        # Registrar el error si quieres
-        # print(f"Error de red para {municipio_query}: {e}")
         return None, None
     if response.status_code != 200:
         # print(f"Status {response.status_code} para {municipio_query}: {response.text}")
