@@ -1,7 +1,7 @@
 import joblib
 import pandas as pd
 
-# Rutas locales a los archivos que bajaste de Drive
+# Rutas locales a los archivos 
 model_path_local = "random_forest_model.pkl"
 encoders_path_local = "label_encoders.pkl"
 
@@ -17,12 +17,12 @@ for col, le in label_encoders.items():
     if col in df_new.columns:
         df_new[col] = le.transform(df_new[col])
 
-X_new = df_new.drop("Condition", axis=1, errors='ignore')  # si 'Condition' no existe, ignóralo
+X_new = df_new.drop("Condition", axis=1, errors='ignore')
 
 # Hacer predicciones
 y_pred_new = Modelo_RandomForest.predict(X_new)
 
-# Si quieres convertir las predicciones de vuelta a clases originales:
+# Convertir las predicciones de vuelta a clases originales
 clases = label_encoders["Condition"].classes_
 y_pred_labels = clases[y_pred_new]
 print(y_pred_labels)

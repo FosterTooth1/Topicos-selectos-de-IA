@@ -1,11 +1,10 @@
-# Importar las librerías
 from datetime import datetime
 import pandas as pd
 import joblib
 import requests
 import json
 
-# Rutas locales a los archivos que bajaste de Drive
+# Rutas locales a los archivos
 model_path_local = "random_forest_model.pkl"
 encoders_path_local = "label_encoders.pkl"
 
@@ -33,7 +32,6 @@ response = requests.get(url)
 if response.status_code != 200:
     print(f"Error en la petición: status_code={response.status_code}")
     print("Texto de respuesta:", response.text)
-    # Opcional: salir o lanzar excepción
     raise RuntimeError("La API devolvió un error, revisa la clave o la URL.")
 try:
     data = response.json()

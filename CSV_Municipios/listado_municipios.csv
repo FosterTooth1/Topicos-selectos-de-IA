@@ -1,0 +1,85 @@
+﻿municipio_id,nombre_municipio,query_municipio,latitud,longitud
+1,Acambay de Ruiz Castañeda,"Acambay de Ruiz Castañeda, Estado de México",19.9590471,-99.8480209
+2,Acolman,"Acolman, Estado de México",19.6389474,-98.9109537
+3,Aculco,"Aculco, Estado de México",20.1358065,-99.8274673
+6,Almoloya del Río,"Almoloya del Río, Estado de México",19.1601576,-99.4974828
+8,Amatepec,"Amatepec, Estado de México",18.6992776,-100.2805285
+9,Amecameca,"Amecameca, Estado de México",19.1200254,-98.7065318
+10,Apaxco,"Apaxco, Estado de México",19.9807399,-99.1518101
+11,Atenco,"Atenco, Estado de México",19.5433960,-98.9568614
+13,Atizapán de Zaragoza,"Atizapán de Zaragoza, Estado de México",19.5640170,-99.2795356
+14,Atlacomulco,"Atlacomulco, Estado de México",19.8159191,-99.8681193
+17,Ayapango,"Ayapango, Estado de México",19.1205433,-98.8176108
+18,Calimaya,"Calimaya, Estado de México",19.1685936,-99.6442631
+20,Coacalco de Berriozábal,"Coacalco de Berriozábal, Estado de México",19.6359452,-99.0948573
+22,Cocotitlán,"Cocotitlán, Estado de México",19.2276568,-98.8598666
+24,Cuautitlán,"Cuautitlán, Estado de México",19.7055182,-99.1666257
+25,Chalco,"Chalco, Estado de México",19.2382585,-98.8188838
+28,Chiautla,"Chiautla, Estado de México",19.5488385,-98.8816593
+31,Chimalhuacán,"Chimalhuacán, Estado de México",19.4177510,-98.9575169
+32,Donato Guerra,"Donato Guerra, Estado de México",19.3188302,-100.1226046
+33,Ecatepec de Morelos,"Ecatepec de Morelos, Estado de México",19.5994083,-99.0487281
+35,Huehuetoca,"Huehuetoca, Estado de México",19.8222076,-99.2709164
+36,Hueypoxtla,"Hueypoxtla, Estado de México",19.9509597,-99.0653822
+37,Huixquilucan,"Huixquilucan, Estado de México",19.3701838,-99.3581568
+38,Isidro Fabela,"Isidro Fabela, Estado de México",19.5517479,-99.4611185
+39,Ixtapaluca,"Ixtapaluca, Estado de México",19.3292900,-98.8082745
+42,Ixtlahuaca,"Ixtlahuaca, Estado de México",19.6013674,-99.8133270
+45,Jilotepec,"Jilotepec, Estado de México",20.0169568,-99.6281796
+48,Jocotitlán,"Jocotitlán, Estado de México",19.7158863,-99.7623175
+50,Juchitepec,"Juchitepec, Estado de México",19.0990825,-98.9025676
+51,Lerma,"Lerma, Estado de México",19.3263632,-99.4600520
+52,Malinalco,"Malinalco, Estado de México",18.8938260,-99.4941623
+53,Melchor Ocampo,"Melchor Ocampo, Estado de México",19.7080690,-99.1317329
+54,Metepec,"Metepec, Estado de México",19.2511338,-99.5937281
+55,Mexicaltzingo,"Mexicaltzingo, Estado de México",19.2100079,-99.5814237
+57,Naucalpan de Juárez,"Naucalpan de Juárez, Estado de México",19.4788356,-99.2327986
+58,Nezahualcóyotl,"Nezahualcóyotl, Estado de México",19.4727949,-99.0546005
+59,Nextlalpan,"Nextlalpan, Estado de México",19.7262794,-99.0788789
+60,Nicolás Romero,"Nicolás Romero, Estado de México",19.6342263,-99.3695564
+61,Nopaltepec,"Nopaltepec, Estado de México",19.8002548,-98.7262947
+62,Ocoyoacac,"Ocoyoacac, Estado de México",19.2587373,-99.4177779
+63,Ocuilan,"Ocuilan, Estado de México",19.0013312,-99.3950158
+64,El Oro,"El Oro, Estado de México",19.7959711,-100.0663020
+65,Otumba,"Otumba, Estado de México",19.6570940,-98.7401549
+69,Papalotla,"Papalotla, Estado de México",19.5630226,-98.8577076
+70,La Paz,"La Paz, Estado de México",19.3637685,-98.9463136
+73,San Antonio la Isla,"San Antonio la Isla, Estado de México",19.1692363,-99.5567654
+74,San Felipe del Progreso,"San Felipe del Progreso, Estado de México",19.6491974,-99.9701880
+75,San Martín de las Pirámides,"San Martín de las Pirámides, Estado de México",19.7044852,-98.8344679
+76,San Mateo Atenco,"San Mateo Atenco, Estado de México",19.2621168,-99.5370090
+77,San Simón de Guerrero,"San Simón de Guerrero, Estado de México",18.9723706,-100.0319205
+80,Sultepec,"Sultepec, Estado de México",18.7212631,-99.9934621
+81,Tecámac,"Tecámac, Estado de México",19.7115011,-98.9683540
+82,Tejupilco,"Tejupilco, Estado de México",18.8906324,-100.1278590
+83,Temamatla,"Temamatla, Estado de México",19.1924582,-98.8721646
+84,Temascalapa,"Temascalapa, Estado de México",19.8163016,-98.8760952
+85,Temascalcingo,"Temascalcingo, Estado de México",19.9311395,-100.0491738
+88,Tenancingo,"Tenancingo, Estado de México",18.9646592,-99.5689821
+89,Tenango del Aire,"Tenango del Aire, Estado de México",19.1493191,-98.8784434
+90,Tenango del Valle,"Tenango del Valle, Estado de México",19.0760032,-99.6480906
+91,Teoloyucan,"Teoloyucan, Estado de México",19.7579738,-99.1730330
+92,Teotihuacán,"Teotihuacán, Estado de México",19.6933570,-98.8831264
+93,Tepetlaoxtoc,"Tepetlaoxtoc, Estado de México",19.5491848,-98.7515623
+94,Tepetlixpa,"Tepetlixpa, Estado de México",19.0139290,-98.8423066
+95,Tepotzotlán,"Tepotzotlán, Estado de México",19.7187644,-99.3069331
+96,Tequixquiac,"Tequixquiac, Estado de México",19.8935209,-99.1671164
+99,Texcoco,"Texcoco, Estado de México",19.4755907,-98.8553964
+100,Tezoyuca,"Tezoyuca, Estado de México",19.5902244,-98.9079359
+101,Tianguistenco,"Tianguistenco, Estado de México",19.1622428,-99.4616998
+102,Timilpan,"Timilpan, Estado de México",19.9224010,-99.6883652
+103,Tlalmanalco,"Tlalmanalco, Estado de México",19.2066075,-98.7323191
+104,Tlalnepantla de Baz,"Tlalnepantla de Baz, Estado de México",19.5464902,-99.1899352
+106,Toluca,"Toluca, Estado de México",19.2925450,-99.6569007
+107,Tonatico,"Tonatico, Estado de México",18.7769335,-99.6277864
+108,Tultepec,"Tultepec, Estado de México",19.6781696,-99.1279446
+109,Tultitlán,"Tultitlán, Estado de México",19.6169912,-99.1592775
+110,Valle de Bravo,"Valle de Bravo, Estado de México",19.1849101,-100.1512633
+113,Villa Guerrero,"Villa Guerrero, Estado de México",18.9414070,-99.6825332
+116,Zacazonapan,"Zacazonapan, Estado de México",19.0625982,-100.2615453
+117,Zacualpan,"Zacualpan, Estado de México",18.7142860,-99.7930298
+118,Zinacantepec,"Zinacantepec, Estado de México",19.2027704,-99.8135235
+120,Zumpango,"Zumpango, Estado de México",19.8129367,-99.0818095
+121,Cuautitlán Izcalli,"Cuautitlán Izcalli, Estado de México",19.6531356,-99.2145002
+122,Valle de Chalco Solidaridad,"Valle de Chalco Solidaridad, Estado de México",19.2821530,-98.9416122
+125,Tonanitla,"Tonanitla, Estado de México",19.6798744,-99.0552155
